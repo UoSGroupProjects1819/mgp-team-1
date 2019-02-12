@@ -599,8 +599,10 @@ PolygonCollider2D:
     - - {x: -0.08, y: 0.08}
       - {x: -0.08, y: -0.08}
       - {x: 0.074999996, y: -0.08}
+      - {x: 0.07961544, y: -0.07846269}
       - {x: 0.08, y: -0.06}
       - {x: 0.08, y: 0.07}
+      - {x: 0.07934399, y: 0.079523124}
       - {x: 0.055, y: 0.08}
 --- !u!212 &202404772
 SpriteRenderer:
@@ -658,8 +660,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 202404770}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.987, y: 0.207, z: 0.04296875}
-  m_LocalScale: {x: 215.46321, y: 85.81567, z: 1}
+  m_LocalPosition: {x: -0.052, y: 0.045, z: 0.04296875}
+  m_LocalScale: {x: 185.73729, y: 87.010284, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 12
@@ -1079,7 +1081,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.03, y: -0.65825343, z: -10.066406}
+  m_LocalPosition: {x: -1.03, y: -2.3400004, z: -10.066406}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2104,7 +2106,7 @@ MonoBehaviour:
   m_ConfineMode: 0
   m_BoundingVolume: {fileID: 0}
   m_BoundingShape2D: {fileID: 202404771}
-  m_ConfineScreenEdges: 1
+  m_ConfineScreenEdges: 0
   m_Damping: 0
 --- !u!1 &1997190374
 GameObject:
