@@ -20,12 +20,14 @@ public class PlayerCharacter : MonoBehaviour
 
     public int extraJumps;
     private int extraJumpsLeft;
-    
+
+    private GameObject playerShield;
 
     void Start()
     {
         extraJumpsLeft = extraJumps;
         playerRB = GetComponent<Rigidbody2D>();
+        playerShield = GameObject.FindGameObjectWithTag("Shield");
     }
     
 
@@ -69,6 +71,33 @@ public class PlayerCharacter : MonoBehaviour
         {
             FlipSprite();
         }
+
+
+        //Handles the position of the shield (no rotation and only on arrow keys)
+
+        //TO DO : ROTATE THE SHIELD BASED ON WHAT KEYS. TRY MAKE SHIELD GO TO WHERE MOUSE IS STILL...
+        float horizontal2 = Input.GetAxisRaw("Horizontal2");
+        float vertical = Input.GetAxisRaw("Vertical");
+
+        if (horizontal2 > 0 || horizontal2 < 0 || vertical > 0 || vertical < 0 && playerShield != null)
+        {
+            if (playerShield.activeSelf == false)
+            {
+                playerShield.SetActive(true);
+            }
+
+            playerShield.transform.position = new Vector3(transform.position.x + horizontal2, transform.position.y + vertical, transform.position.z);
+
+        }
+
+        else if (horizontal2 == 0)
+        {
+            if (playerShield != null && playerShield.activeSelf == true)
+            {
+                playerShield.SetActive(false);
+            }
+        }
+
 
     }
 

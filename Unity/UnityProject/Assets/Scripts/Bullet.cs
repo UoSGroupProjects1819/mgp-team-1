@@ -4,38 +4,38 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
+    private GameObject player;
+    private GameObject playerShield;
+
+    //Bullet direction and speed manipulation
+    private Rigidbody2D bulletRB;
+    private Vector2 moveDirection;
     public float bulletMoveSpeed;
 
-    private Rigidbody2D bulletRB;
-
-    private GameObject target;
-    private Vector2 moveDirection;
-
-    private bool initialised = false;
+    private bool bulletInitialised = false;
     private bool transformRun = false;
 
     public float timer;
     private float privTimer;
 
     private CircleCollider2D bulletCircleCollider;
-    private GameObject shield;
+
 
     void Start()
     {
-
         privTimer = timer;
         bulletRB = GetComponent<Rigidbody2D>();
-        target = GameObject.FindGameObjectWithTag("Player");
-        shield = GameObject.FindGameObjectWithTag("Shield");
+        player = GameObject.FindGameObjectWithTag("Player");
+        playerShield = GameObject.FindGameObjectWithTag("Shield");
         bulletCircleCollider = GetComponent<CircleCollider2D>();
     }
 
 
     void Update()
     {
-        initialised = true;
+        bulletInitialised = true;
 
-        if (initialised == true && transformRun == false)
+        if (bulletInitialised == true && transformRun == false)
         {
             transformRun = true;
             TransformBullet();
@@ -45,53 +45,43 @@ public class Bullet : MonoBehaviour
 
         if (timer <= 0.0f)
         {
-            initialised = false;
-            transformRun = false;
-            privTimer = timer;
-            gameObject.SetActive(false);
+            DeactivateBullet();
         }
     }
 
-
+    //moveDirection = Towards players current position
     void TransformBullet()
     {
-        moveDirection = (target.transform.position - transform.position).normalized * bulletMoveSpeed;
+        moveDirection = (player.transform.position - transform.position).normalized * bulletMoveSpeed;
         bulletRB.velocity = new Vector2(moveDirection.x, moveDirection.y);
     }
 
 
-    void OnCollisionEnter2D(Collision2D other)
+    void OnCollisionEnter2D(Collision2D collision)
     {
-        if (other.gameObject.name == target.name || other.gameObject.tag == "Ground")
+        if (collision.gameObject.name == player.name || collision.gameObject.tag == "Ground")
         {
-            if (other.gameObject.name == target.name)
+            if (collision.gameObject.name == player.name)
             {
-                //hurt the player
+                //Hurt the player
+                print("Ouchie I have been hurt");
             }
 
-            initialised = false;
-            transformRun = false;
-            privTimer = timer;
-            gameObject.SetActive(false);
+            DeactivateBullet();
         }
 
-        //needs to be set as a trigger to not be stopped by other bullets
-        else if (other.gameObject.name == shield.name)
+        //avoids null references when shield is set to inactive
+        if (playerShield != null)
         {
-            bulletCircleCollider.isTrigger = true;
+            //Needs to be set as a trigger to not be stopped by other bullets
+            if (collision.gameObject.tag == playerShield.tag)
+            {
+                bulletCircleCollider.isTrigger = true;
+            }
         }
     }
     
-
-    //This needs tidying up or re-doing with ray casts.
-    //for now it just uses physics and bounces off the shield 
-    //this means i have to set it to a trigger when its hit the shield so it doesnt get stopped by other bullets
-    //coming towards the player
-    //this also means i have to check that it overlaps with the correct enemy collider as they have 2
-    //the offset of the correct collider is 0 but need a better way to do this
-    //as the code is getting very messy
-
-    //TODO: Make the shield follow the cursor but refined to the player.
+   
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Ground" || other.tag == "Enemy" && bulletCircleCollider.isTrigger == true)
@@ -100,23 +90,23 @@ public class Bullet : MonoBehaviour
             {
                 print("An enemy has been slain");
 
-                initialised = false;
-                transformRun = false;
-                privTimer = timer;
-                bulletCircleCollider.isTrigger = false;
-                gameObject.SetActive(false);
+                DeactivateBullet();
             }
 
             if (other.tag == "Ground")
             {
-                initialised = false;
-                transformRun = false;
-                privTimer = timer;
-                bulletCircleCollider.isTrigger = false;
-                gameObject.SetActive(false);
+                DeactivateBullet();
             }
-
-            
         }
+    }
+
+    //Reset all variables for the bullet so it can act as normal on next spawn
+    private void DeactivateBullet()
+    {
+        bulletInitialised = false;
+        transformRun = false;
+        privTimer = timer;
+        bulletCircleCollider.isTrigger = false;
+        gameObject.SetActive(false);
     }
 }
