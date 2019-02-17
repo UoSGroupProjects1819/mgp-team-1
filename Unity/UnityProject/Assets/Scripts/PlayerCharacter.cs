@@ -23,6 +23,12 @@ public class PlayerCharacter : MonoBehaviour
 
     private GameObject playerShield;
 
+    private Vector2 centerCircle;
+    private Vector2 mousePos;
+
+    public float innerCircleRadius;
+    public float outerCircleRadius;
+
     void Start()
     {
         extraJumpsLeft = extraJumps;
@@ -39,6 +45,36 @@ public class PlayerCharacter : MonoBehaviour
             extraJumpsLeft = extraJumps;
         }
 
+        centerCircle = transform.position;
+        
+        mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+        Vector2 diff = mousePos - centerCircle;
+        float distance = diff.magnitude;
+
+        
+        //Keeps the player within a doughnut styled shape based on inner and outer circle radius
+        //current both set to 1 to keep it on a set line around the player
+        if (distance <= innerCircleRadius || distance >= outerCircleRadius)
+        {
+            if (distance <= innerCircleRadius)
+                playerShield.transform.position = centerCircle + (diff / distance) * innerCircleRadius;
+
+            if (distance >= outerCircleRadius)
+                playerShield.transform.position = centerCircle + (diff / distance) * outerCircleRadius;
+        }
+        else
+        {
+            playerShield.transform.position = mousePos;
+        }
+
+
+        //TO DO: ROTATE THE SHIELD AS WELL AS MOVING IT. NOT SURE HOW TO DO THIS YET
+        Vector2 distanceFromPlayer = playerShield.transform.position - transform.position;
+
+        
+
+
         //Using velocity and forces to move to not mess up the physics systems
         if (Input.GetKeyDown(KeyCode.W) && extraJumpsLeft > 0)
         {
@@ -49,6 +85,9 @@ public class PlayerCharacter : MonoBehaviour
         {
             playerRB.velocity = Vector2.up * jumpForce;
         }
+
+
+   
     }
     
 
@@ -70,34 +109,7 @@ public class PlayerCharacter : MonoBehaviour
         else if (facingRight == true && horizontal < 0)
         {
             FlipSprite();
-        }
-
-
-        //Handles the position of the shield (no rotation and only on arrow keys)
-
-        //TO DO : ROTATE THE SHIELD BASED ON WHAT KEYS. TRY MAKE SHIELD GO TO WHERE MOUSE IS STILL...
-        float horizontal2 = Input.GetAxisRaw("Horizontal2");
-        float vertical = Input.GetAxisRaw("Vertical");
-
-        if (horizontal2 > 0 || horizontal2 < 0 || vertical > 0 || vertical < 0 && playerShield != null)
-        {
-            if (playerShield.activeSelf == false)
-            {
-                playerShield.SetActive(true);
-            }
-
-            playerShield.transform.position = new Vector3(transform.position.x + horizontal2, transform.position.y + vertical, transform.position.z);
-
-        }
-
-        else if (horizontal2 == 0)
-        {
-            if (playerShield != null && playerShield.activeSelf == true)
-            {
-                playerShield.SetActive(false);
-            }
-        }
-
+        }       
 
     }
 
