@@ -7,6 +7,8 @@ public class Bullet : MonoBehaviour
     private GameObject player;
     private GameObject playerShield;
 
+    private Enemy enemyScript;
+
     //Bullet direction and speed manipulation
     private Rigidbody2D bulletRB;
     private Vector2 moveDirection;
@@ -20,6 +22,7 @@ public class Bullet : MonoBehaviour
 
     private CircleCollider2D bulletCircleCollider;
 
+    public int bulletDamage;
 
     void Start()
     {
@@ -28,6 +31,8 @@ public class Bullet : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player");
         playerShield = GameObject.FindGameObjectWithTag("Shield");
         bulletCircleCollider = GetComponent<CircleCollider2D>();
+
+        enemyScript = GetComponentInParent<Enemy>();
     }
 
 
@@ -63,8 +68,8 @@ public class Bullet : MonoBehaviour
         {
             if (collision.gameObject.name == player.name)
             {
-                //Hurt the player
-                print("Ouchie I have been hurt");
+                //Damage player here
+                enemyScript.DamagePlayer(bulletDamage);
             }
 
             DeactivateBullet();
@@ -88,7 +93,7 @@ public class Bullet : MonoBehaviour
         {
             if (other.tag == "Enemy" && other.offset.x == 0)
             {
-                print("An enemy has been slain");
+                enemyScript.DamageSelf(bulletDamage);
 
                 DeactivateBullet();
             }

@@ -133,3 +133,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletMoveSpeed: 6
   timer: 3
+  playerHP: 5
+  enemyHP: 1

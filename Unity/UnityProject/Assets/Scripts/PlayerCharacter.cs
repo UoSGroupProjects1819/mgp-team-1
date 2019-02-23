@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -21,24 +22,29 @@ public class PlayerCharacter : MonoBehaviour
     public int extraJumps;
     private int extraJumpsLeft;
 
+    //variables for player shield
     private GameObject playerShield;
 
     private Vector2 centerCircle;
-    private Vector2 mousePos;
+    private Vector2 joystickPos;
+   
+    public float CircleRadius;
+    //private Vector2 mousePos;
 
-    public float innerCircleRadius;
-    public float outerCircleRadius;
+    private PlayerHealth playerHealth;
 
     void Start()
     {
         extraJumpsLeft = extraJumps;
         playerRB = GetComponent<Rigidbody2D>();
         playerShield = GameObject.FindGameObjectWithTag("Shield");
+        playerHealth = GetComponent<PlayerHealth>();
     }
     
 
     private void Update()
     {
+
         //If empty object on player is touching ground
         if (isGrounded == true)
         {
@@ -46,50 +52,42 @@ public class PlayerCharacter : MonoBehaviour
         }
 
         centerCircle = transform.position;
+        joystickPos = new Vector2((Input.GetAxis("Horizontal2") + 0.01f), Input.GetAxis("Vertical2") + 0f);
+        float distance = joystickPos.magnitude;
         
-        mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-
-        Vector2 diff = mousePos - centerCircle;
-        float distance = diff.magnitude;
-
-        
-        //Keeps the player within a doughnut styled shape based on inner and outer circle radius
-        //current both set to 1 to keep it on a set line around the player
-        if (distance <= innerCircleRadius || distance >= outerCircleRadius)
+        //Default position is (0.01, 0) as I always add 0.01f to avoid NaN errors
+        if (joystickPos == new Vector2(0.01f, 0f) || playerHealth.isDead)
         {
-            if (distance <= innerCircleRadius)
-                playerShield.transform.position = centerCircle + (diff / distance) * innerCircleRadius;
-
-            if (distance >= outerCircleRadius)
-                playerShield.transform.position = centerCircle + (diff / distance) * outerCircleRadius;
+            playerShield.SetActive(false);
         }
         else
         {
-            playerShield.transform.position = mousePos;
+            playerShield.SetActive(true);
+        }
+
+        //Makes the shield stay on a set line around the player so it doesn't collide with the player
+        if (distance <= CircleRadius || distance >= CircleRadius)
+        {
+            playerShield.transform.position = centerCircle + (joystickPos / distance) * CircleRadius;
         }
 
 
         //TO DO: ROTATE THE SHIELD AS WELL AS MOVING IT. NOT SURE HOW TO DO THIS YET
-        Vector2 distanceFromPlayer = playerShield.transform.position - transform.position;
-
-        
+        //Vector2 distanceFromPlayer = playerShield.transform.position - transform.position;
 
 
-        //Using velocity and forces to move to not mess up the physics systems
-        if (Input.GetKeyDown(KeyCode.W) && extraJumpsLeft > 0)
+        //Using velocity and forces to move to not mess up the physics system
+        if (Input.GetButtonDown("Jump") && extraJumpsLeft > 0 && !playerHealth.isDead)
         {
             playerRB.velocity = Vector2.up * jumpForce;
             extraJumpsLeft--;
         }
-        else if (Input.GetKeyDown(KeyCode.W) && extraJumpsLeft == 0 && isGrounded == true)
+        else if (Input.GetKeyDown(KeyCode.W) && extraJumpsLeft == 0 && isGrounded == true && !playerHealth.isDead)
         {
             playerRB.velocity = Vector2.up * jumpForce;
         }
-
-
-   
     }
-    
+
 
     private void FixedUpdate()
     {
@@ -99,8 +97,10 @@ public class PlayerCharacter : MonoBehaviour
         //using raw for more accurate movement and no 'sliding'
         float horizontal = Input.GetAxisRaw("Horizontal");
 
-        playerRB.velocity = new Vector2(horizontal*speed, playerRB.velocity.y);
-
+        if (!playerHealth.isDead)
+        {
+            playerRB.velocity = new Vector2(horizontal * speed, playerRB.velocity.y);
+        }
         
         if (facingRight == false && horizontal > 0)
         {
@@ -120,6 +120,43 @@ public class PlayerCharacter : MonoBehaviour
 
         transform.Rotate(0f, 180f, 0f);
     }
+
+
+
+    /* 
+         * This is for use only with mouse to control the shield of the player
+         * may implement a setting later to disable or enable mouse control. 
+         * game is controller only for now.
+         * 
+         */
+
+
+    /*
+     * 
+     * 
+        //mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+        //Vector2 diff = mousePos - centerCircle;
+        //float distance = diff.magnitude;
+
+
+        //Keeps the player within a doughnut styled shape based on inner and outer circle radius
+        //current both set to 1 to keep it on a set line around the player
+        if (distance <= innerCircleRadius || distance >= outerCircleRadius)
+        {
+            if (distance <= innerCircleRadius)
+                playerShield.transform.position = centerCircle + (diff / distance) * innerCircleRadius;
+
+            if (distance >= outerCircleRadius)
+                playerShield.transform.position = centerCircle + (diff / distance) * outerCircleRadius;
+        }
+        else
+        {
+            playerShield.transform.position = mousePos;
+        }
+    *
+    *
+    */
 
 
 }

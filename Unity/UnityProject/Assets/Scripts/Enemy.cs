@@ -21,6 +21,8 @@ public class Enemy : MonoBehaviour
     public int bulletTotalCount;
     private int currentBulletsShot = 0;
 
+    private PlayerHealth playerHealth;
+    public int enemyHealth;
 
     void Awake()
     {
@@ -39,12 +41,18 @@ public class Enemy : MonoBehaviour
         enemyAttackRange = GetComponent<CircleCollider2D>();
         nextFire = Time.time;
         turretPosition = turretEnd.transform.position;
+        playerHealth = player.GetComponent<PlayerHealth>();
     }
 
 
     void Update()
     {
         CheckIfTimeToFire();
+
+        if (enemyHealth <= 0)
+        {
+            gameObject.SetActive(false);
+        }
     }
 
 
@@ -56,7 +64,7 @@ public class Enemy : MonoBehaviour
             currentBulletsShot = 0;
         }
 
-        if (Time.time > nextFire && playerInRange)
+        if (Time.time > nextFire && playerInRange && !playerHealth.isDead)
         {
             if (bulletPool[currentBulletsShot].activeSelf == false)
             {
@@ -92,5 +100,17 @@ public class Enemy : MonoBehaviour
         {
             playerInRange = false;
         }
+    }
+
+    public void DamagePlayer(int bulletDamage)
+    {
+        playerHealth.playerHP -= bulletDamage;
+        print("player health = " + playerHealth.playerHP);
+    }
+
+    public void DamageSelf(int bulletDamage)
+    {
+        enemyHealth -= bulletDamage;
+        print("enemy health = " + enemyHealth);
     }
 }
