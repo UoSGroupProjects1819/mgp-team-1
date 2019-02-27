@@ -28,7 +28,7 @@ public class PlayerCharacter : MonoBehaviour
     private Vector2 centerCircle;
     private Vector2 joystickPos;
    
-    public float CircleRadius;
+    public float circleRadius;
     //private Vector2 mousePos;
 
     private PlayerHealth playerHealth;
@@ -66,9 +66,9 @@ public class PlayerCharacter : MonoBehaviour
         }
 
         //Makes the shield stay on a set line around the player so it doesn't collide with the player
-        if (distance <= CircleRadius || distance >= CircleRadius)
+        if (distance <= circleRadius || distance >= circleRadius)
         {
-            playerShield.transform.position = centerCircle + (joystickPos / distance) * CircleRadius;
+            playerShield.transform.position = centerCircle + (joystickPos / distance) * circleRadius;
         }
 
 
@@ -86,6 +86,7 @@ public class PlayerCharacter : MonoBehaviour
         {
             playerRB.velocity = Vector2.up * jumpForce;
         }
+
     }
 
 
