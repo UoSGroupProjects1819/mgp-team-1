@@ -113,4 +113,9 @@ public class Enemy : MonoBehaviour
         enemyHealth -= bulletDamage;
         print("enemy health = " + enemyHealth);
     }
+
+    //TODO:
+    //the bullets will kill the enemy it comes from no matter which enemy it hits
+    //need to sort this
 }
+

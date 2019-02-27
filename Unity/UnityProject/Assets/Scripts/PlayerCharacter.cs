@@ -30,8 +30,10 @@ public class PlayerCharacter : MonoBehaviour
    
     public float circleRadius;
     //private Vector2 mousePos;
+    public float shieldRotationSpeed;
 
     private PlayerHealth playerHealth;
+
 
     void Start()
     {
@@ -71,9 +73,12 @@ public class PlayerCharacter : MonoBehaviour
             playerShield.transform.position = centerCircle + (joystickPos / distance) * circleRadius;
         }
 
+        //Rotates the shield of the player on right and left trigger
+        if (playerShield.activeSelf && Input.GetAxisRaw("Fire1") >= 0.5)
+            playerShield.transform.Rotate(0, 0, -shieldRotationSpeed);
 
-        //TO DO: ROTATE THE SHIELD AS WELL AS MOVING IT. NOT SURE HOW TO DO THIS YET
-        //Vector2 distanceFromPlayer = playerShield.transform.position - transform.position;
+        else if (playerShield.activeSelf && Input.GetAxisRaw("Fire1") <= -0.5)
+            playerShield.transform.Rotate(0, 0, shieldRotationSpeed);;
 
 
         //Using velocity and forces to move to not mess up the physics system
