@@ -74,11 +74,15 @@ public class PlayerCharacter : MonoBehaviour
         }
 
         //Rotates the shield of the player on right and left trigger
-        if (playerShield.activeSelf && Input.GetAxisRaw("Fire1") >= 0.5)
+        if (playerShield.activeSelf && Input.GetAxis("Fire1") >= 0.5)
+        {
             playerShield.transform.Rotate(0, 0, -shieldRotationSpeed);
+        }
 
-        else if (playerShield.activeSelf && Input.GetAxisRaw("Fire1") <= -0.5)
-            playerShield.transform.Rotate(0, 0, shieldRotationSpeed);;
+        if (playerShield.activeSelf && Input.GetAxis("Fire1") <= -0.5)
+        {
+            playerShield.transform.Rotate(0, 0, shieldRotationSpeed); ;
+        }
 
 
         //Using velocity and forces to move to not mess up the physics system
@@ -87,10 +91,12 @@ public class PlayerCharacter : MonoBehaviour
             playerRB.velocity = Vector2.up * jumpForce;
             extraJumpsLeft--;
         }
-        else if (Input.GetKeyDown(KeyCode.W) && extraJumpsLeft == 0 && isGrounded == true && !playerHealth.isDead)
-        {
-            playerRB.velocity = Vector2.up * jumpForce;
-        }
+
+
+        //else if (Input.GetKeyDown(KeyCode.W) && extraJumpsLeft == 0 && isGrounded == true && !playerHealth.isDead)
+        //{
+        //    playerRB.velocity = Vector2.up * jumpForce;
+        //}
 
     }
 
