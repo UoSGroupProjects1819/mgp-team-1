@@ -1,0 +1,1033 @@
+Initiating legacy licensing module
+LICENSE SYSTEM [2019228 17:42:48] Next license update check is after 2019-03-01T17:20:32
+
+Built from '2018.3/staging' branch; Version is '2018.3.4f1 (1d952368ca3a) revision 1938723'; Using compiler version '191326128'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 16332 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1, IsPro: 0
+[Package Manager] Server::Start -- Port 51780 was selected
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\Unity.exe
+-openfile
+F:\University\GitHub\mgp-team-1\Unity\UnityProject\Assets\Scenes\Brad Pablo.unity
+Opening project via file: F:/University/GitHub/mgp-team-1/Unity/UnityProject/Assets/Scenes/Brad Pablo.unity
+F:/University/GitHub/mgp-team-1/Unity/UnityProject
+Using Asset Import Pipeline V1.
+Initiating legacy licensing moduleLoading GUID <-> Path mappings...0.000088 seconds
+Loading Asset Database...0.010965 seconds
+Build target: OSXUniversal found and added!
+Build target: WindowsStoreApps found and added!
+Build target: Win64 found and added!
+Build target: Win found and added!
+Build target: LinuxUniversal found and added!
+Build target: Linux64 found and added!
+Build target: Linux found and added!
+Build target: iOS found and added!
+Build target: tvOS found and added!
+Build target: PS4 found and added!
+Build target: XboxOne found and added!
+Build target: Android found and added!
+Build target: WebGL found and added!
+Build target: Switch found and added!
+Build target: Lumin found and added!
+Build target: PSM found and added!
+Build target: PSP2 found and added!
+Build target: WiiU found and added!
+Build target: Web found and added!
+Build target: WebStreamed found and added!
+Build target: OSXIntel found and added!
+Build target: OSXIntel64 found and added!
+Build target: BlackBerry found and added!
+Build target: PS3 found and added!
+Build target: N3DS found and added!
+Build target: WP8 found and added!
+Build target: SamsungTV found and added!
+Build target: Tizen found and added!
+AssetDatabase consistency checks...0.024073 seconds
+Refreshing native plugins compatible for Editor in 10.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Done resolving packages in 0.22s seconds
+[Package Manager] Registering 37 packages:
+[Package Manager]  * Package :  com.unity.ads@2.0.8
+    (location: F:\University\GitHub\mgp-team-1\Unity\UnityProject\Library\PackageCache\com.unity.ads@2.0.8)
+[Package Manager]  * Package :  com.unity.analytics@3.2.2
+    (location: F:\University\GitHub\mgp-team-1\Unity\UnityProject\Library\PackageCache\com.unity.analytics@3.2.2)
+[Package Manager]  * Package :  com.unity.cinemachine@2.2.8
+    (location: F:\University\GitHub\mgp-team-1\Unity\UnityProject\Library\PackageCache\com.unity.cinemachine@2.2.8)
+[Package Manager]  * Package :  com.unity.collab-proxy@1.2.15
+    (location: F:\University\GitHub\mgp-team-1\Unity\UnityProject\Library\PackageCache\com.unity.collab-proxy@1.2.15)
+[Package Manager]  * Package :  com.unity.package-manager-ui@2.0.3
+    (location: F:\University\GitHub\mgp-team-1\Unity\UnityProject\Library\PackageCache\com.unity.package-manager-ui@2.0.3)
+[Package Manager]  * Package :  com.unity.purchasing@2.0.3
+    (location: F:\University\GitHub\mgp-team-1\Unity\UnityProject\Library\PackageCache\com.unity.purchasing@2.0.3)
+[Package Manager]  * Package :  com.unity.textmeshpro@1.3.0
+    (location: F:\University\GitHub\mgp-team-1\Unity\UnityProject\Library\PackageCache\com.unity.textmeshpro@1.3.0)
+[Package Manager]  * Package :  com.unity.modules.ai@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai)
+[Package Manager]  * Package :  com.unity.modules.animation@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation)
+[Package Manager]  * Package :  com.unity.modules.assetbundle@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle)
+[Package Manager]  * Package :  com.unity.modules.audio@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio)
+[Package Manager]  * Package :  com.unity.modules.cloth@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth)
+[Package Manager]  * Package :  com.unity.modules.director@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director)
+[Package Manager]  * Package :  com.unity.modules.imageconversion@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion)
+[Package Manager]  * Package :  com.unity.modules.imgui@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui)
+[Package Manager]  * Package :  com.unity.modules.jsonserialize@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize)
+[Package Manager]  * Package :  com.unity.modules.particlesystem@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem)
+[Package Manager]  * Package :  com.unity.modules.physics@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics)
+[Package Manager]  * Package :  com.unity.modules.physics2d@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d)
+[Package Manager]  * Package :  com.unity.modules.screencapture@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture)
+[Package Manager]  * Package :  com.unity.modules.terrain@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain)
+[Package Manager]  * Package :  com.unity.modules.terrainphysics@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics)
+[Package Manager]  * Package :  com.unity.modules.tilemap@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap)
+[Package Manager]  * Package :  com.unity.modules.ui@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui)
+[Package Manager]  * Package :  com.unity.modules.uielements@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements)
+[Package Manager]  * Package :  com.unity.modules.umbra@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra)
+[Package Manager]  * Package :  com.unity.modules.unityanalytics@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics)
+[Package Manager]  * Package :  com.unity.modules.unitywebrequest@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest)
+[Package Manager]  * Package :  com.unity.modules.unitywebrequestassetbundle@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle)
+[Package Manager]  * Package :  com.unity.modules.unitywebrequestaudio@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio)
+[Package Manager]  * Package :  com.unity.modules.unitywebrequesttexture@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture)
+[Package Manager]  * Package :  com.unity.modules.unitywebrequestwww@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww)
+[Package Manager]  * Package :  com.unity.modules.vehicles@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles)
+[Package Manager]  * Package :  com.unity.modules.video@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video)
+[Package Manager]  * Package :  com.unity.modules.vr@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr)
+[Package Manager]  * Package :  com.unity.modules.wind@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind)
+[Package Manager]  * Package :  com.unity.modules.xr@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr)
+[Package Manager] Done registering packages in 0.01s seconds
+IsTimeToCheckForNewEditor: Update time 1551378027 current 1551375770
+Initialize engine version: 2018.3.4f1 (1d952368ca3a)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   
+    VRAM:     8088 MB
+    Driver:   25.21.14.1891
+[EnlightenBakeManager] m_Clear = false;
+WARNING: Shader Unsupported: 'AR/TangoARRender' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'AR/TangoARRender' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2018.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2018.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2018.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=0.0.0.0:56944
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 0.33 ms, found 3 plugins.
+Initializing Unity.PackageManager (PackageManager) v2018.3.4 for Unity v2018.3.4f1
+Registering precompiled unity dll's ...
+Register platform support module: C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\Data\PlaybackEngines\AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\Data\PlaybackEngines\Facebook/UnityEditor.Facebook.Extensions.dll
+Registered in 0.003857 seconds.
+Registering platform support modules:
+Registered platform support modules in: 0.078751s.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for Facebook target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 1.26 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.160 seconds
+Registering precompiled user dll's ...
+Registered in 0.042656 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Initializing Unity.PackageManager (PackageManager) v2018.3.4 for Unity v2018.3.4f1
+Registering platform support modules:
+Registered platform support modules in: 0.0418745s.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for Facebook target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.275 seconds
+Platform modules already initialized, skipping
+Validating Project structure ... 0.000963 seconds.
+Refresh: detecting if any assets need to be imported or removed ...
+
+Refresh Completed time: 0.021107s
+	Asset Scan time: 0.018258s
+	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Scripting) time: 0.000000s (count: 0)
+	Post Processs Assets (Scripting) time: 0.000000s
+	Asset Rehashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Non Scripting) time: 0.000000s (count: 0)
+	Post Process Assets (Non Scripting) time: 0.000000s
+	Dependent Assets to Import Queue time: 0.000000s
+
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
+WARNING: Shader Unsupported: 'AR/TangoARRender' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'AR/TangoARRender' - Setting to default shader.
+Warming cache for 727 main assets: 0.001097 seconds elapsed
+Initializing Unity extensions:
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.4f1/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'  GUID: 6a10b2909283487f913b00d94cd3faf5
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.4f1/Editor/Data/UnityExtensions/Unity/TestRunner/portable/nunit.framework.dll'  GUID: 405b9b51bb344a128608d968297df79c
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.4f1/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll'  GUID: f70555f144d8491a825f0804e09c671c
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.4f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'  GUID: f5f67c52d1564df4a8936ccd202a3bd8
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.4f1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll'  GUID: 844f815391db42d49455cbf1a7bfc434
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.4f1/Editor/Data/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll'  GUID: dc443db3e92b4983b9738c1131f555cb
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.4f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Runtime/UnityEngine.SpatialTracking.dll'  GUID: ed7343f30e3843b3afda8f8b02669cea
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.4f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll'  GUID: 4a3ecb1425d14502837abea459cf2b70
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.4f1/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll'  GUID: 5f32cd94baa94578a686d4b9d6b660f7
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.4f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll'  GUID: b5da970776034f77a070d99423d68791
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.4f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'  GUID: 870353891bb340e2b2a9c8707e7419ba
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.4f1/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll'  GUID: 53ebcfaa2e1e4e2dbc85882cd5a73fa1
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.4f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll'  GUID: ead147da21254ff9a0a936bdd75e1680
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.4f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Runtime/UnityEngine.GoogleAudioSpatializer.dll'  GUID: e4f4cf1b9b434137a499903a7a1d651a
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.4f1/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll'  GUID: 4ba2329b63d54f0187bcaa12486b1b0f
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.4f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll'  GUID: 3a84de5cd0624681b6b6dcd8921d912a
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.4f1/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll'  GUID: 80a3616ca19596e4da0f10f14d241e9f
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.4f1/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll'  GUID: 4113173d5e95493ab8765d7b08371de4
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.4f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll'  GUID: 4b3fa4bde7f1451a8218c03ee6a8ded8
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.4f1/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll'  GUID: 7668179ede524d6396c8b7d84461ea29
+Opening scene 'Assets/Scenes/Brad Pablo.unity'
+Load scene 'Assets/Scenes/Brad Pablo.unity' time: 0.020480 ms 
+Unloading 422 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.9 MB.
+System memory in use after: 133.6 MB.
+
+Unloading 138 unused Assets to reduce memory usage. Loaded Objects now: 1177.
+Total: 3.421883 ms (FindLiveObjects: 0.263312 ms CreateObjectMapping: 0.018724 ms MarkObjects: 2.098302 ms  DeleteObjects: 1.040959 ms)
+
+<RI> Initialized touch support.
+<RI> Initialized touch support.
+<RI> Initialized touch support.
+<RI> Initialized touch support.
+<RI> Initialized touch support.
+<RI> Initialized touch support.
+<RI> Initializing input.
+<RI> Input initialized.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Created GICache directory at C:/Users/ElleMelMarta/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.062s, timestamps: [7.673 - 7.735]
+Issue TrimJob to reduce GI Cache size to maximum 10GB at: 'C:/Users/ElleMelMarta/AppData/LocalLow/Unity/Caches/GiCache'
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 3744 -> priority: 1 
+  Thread -> id: 6b9c -> priority: 1 
+  Thread -> id: 1c5c -> priority: 1 
+  Thread -> id: 6184 -> priority: 1 
+TrimDiskCacheJob: Current cache size 0mb
+Refresh: detecting if any assets need to be imported or removed ...
+
+Hashing assets (2 files)... 0.001 seconds
+  file read: 0.000 seconds (0.006 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+----- Compute hash(es) for 2 asset(s).
+----- Asset named Assets/PlayerHealth.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/PlayerCharacter.cs is skipped as no actual change.
+
+Refreshing native plugins compatible for Editor in 3.02 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+
+Refresh Completed time: 0.026322s
+	Asset Scan time: 0.017109s
+	Asset Hashing: 0.000903s [6.1 KB, 6.643919 mb/s]
+	Asset Import (Scripting) time: 0.000000s (count: 0)
+	Post Processs Assets (Scripting) time: 0.000000s
+	Asset Rehashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Non Scripting) time: 0.000000s (count: 0)
+	Post Process Assets (Non Scripting) time: 0.000000s
+	Dependent Assets to Import Queue time: 0.000000s
+
+<RI> Initialized touch support.
+<RI> Initialized touch support.
+<RI> Initialized touch support.
+Reloading assemblies for play mode.
+Begin MonoManager ReloadAssembly
+Initializing Unity.PackageManager (PackageManager) v2018.3.4 for Unity v2018.3.4f1
+Registering platform support modules:
+Registered platform support modules in: 0.0466817s.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for Facebook target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.460 seconds
+Platform modules already initialized, skipping
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.339380 ms 
+gi::BakeBackendSwitch: Clear() active clients.
+gi::BakeBackendSwitch: switching bake backend from 3 to 1.
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.250439 ms 
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.4 MB.
+System memory in use after: 154.5 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 1694.
+Total: 5.554124 ms (FindLiveObjects: 0.382680 ms CreateObjectMapping: 0.045933 ms MarkObjects: 5.039495 ms  DeleteObjects: 0.085137 ms)
+
+<RI> Initialized touch support.
+Reloading assemblies for play mode.
+Begin MonoManager ReloadAssembly
+Initializing Unity.PackageManager (PackageManager) v2018.3.4 for Unity v2018.3.4f1
+Registering platform support modules:
+Registered platform support modules in: 0.0422697s.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for Facebook target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.29 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.432 seconds
+Platform modules already initialized, skipping
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.279988 ms 
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.268871 ms 
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.8 MB.
+System memory in use after: 153.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1699.
+Total: 5.015505 ms (FindLiveObjects: 0.342598 ms CreateObjectMapping: 0.027501 ms MarkObjects: 4.621707 ms  DeleteObjects: 0.022820 ms)
+
+Reloading assemblies for play mode.
+Begin MonoManager ReloadAssembly
+Initializing Unity.PackageManager (PackageManager) v2018.3.4 for Unity v2018.3.4f1
+Registering platform support modules:
+Registered platform support modules in: 0.0405017s.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for Facebook target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.29 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.437 seconds
+Platform modules already initialized, skipping
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.325044 ms 
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.265945 ms 
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.6 MB.
+System memory in use after: 153.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1703.
+Total: 5.122292 ms (FindLiveObjects: 0.349912 ms CreateObjectMapping: 0.036864 ms MarkObjects: 4.706845 ms  DeleteObjects: 0.027501 ms)
+
+Reloading assemblies for play mode.
+Begin MonoManager ReloadAssembly
+Initializing Unity.PackageManager (PackageManager) v2018.3.4 for Unity v2018.3.4f1
+Registering platform support modules:
+Registered platform support modules in: 0.0403247s.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for Facebook target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.29 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.435 seconds
+Platform modules already initialized, skipping
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.295494 ms 
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.265945 ms 
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.6 MB.
+System memory in use after: 153.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1707.
+Total: 5.428319 ms (FindLiveObjects: 0.379462 ms CreateObjectMapping: 0.045933 ms MarkObjects: 4.974545 ms  DeleteObjects: 0.027501 ms)
+
+<RI> Initialized touch support.
+Reloading assemblies for play mode.
+Begin MonoManager ReloadAssembly
+Initializing Unity.PackageManager (PackageManager) v2018.3.4 for Unity v2018.3.4f1
+Registering platform support modules:
+Registered platform support modules in: 0.0399804s.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for Facebook target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.429 seconds
+Platform modules already initialized, skipping
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.325336 ms 
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.271504 ms 
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.6 MB.
+System memory in use after: 153.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1711.
+Total: 5.343474 ms (FindLiveObjects: 0.361615 ms CreateObjectMapping: 0.041837 ms MarkObjects: 4.916031 ms  DeleteObjects: 0.023405 ms)
+
+Refresh: detecting if any assets need to be imported or removed ...
+Refresh: trashing asset e4b43c320dc40e54bb0b16d49fd4df7e
+Refresh: trashing asset 56a36013645ca044c9064ab6e99623a1
+Refresh: trashing asset 4b2106a4997fb6d41ad20af146915256
+Refresh: trashing asset 1488b788144b08f419868bc7c84c0372
+Refresh: trashing asset 347ed48ecba4ace4daa6dca842716963
+Refresh: trashing asset 16fa4e9f0a48df3419ae75064e182317
+Script Compilation Pipeline Post Process Assets time: 0.000536s
+Assembly Updater Post Process Assets time: 0.000053s
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.27 ms.
+
+Refresh Completed time: 0.169002s
+	Asset Scan time: 0.025620s
+	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Scripting) time: 0.051048s (count: 1)
+	Post Processs Assets (Scripting) time: 0.000000s
+	Asset Rehashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Non Scripting) time: 0.000000s (count: 0)
+	Post Process Assets (Non Scripting) time: 0.021467s
+	Dependent Assets to Import Queue time: 0.000368s
+
+<RI> Initialized touch support.
+
+Hashing assets (1 files)... 0.001 seconds
+  file read: 0.000 seconds (0.005 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Palette/Ground Tiles.prefab - GUID: 5857cc8557160ae459fc9e3bed0db4b4...
+ done. [Time: 15.686362 ms] 
+Script Compilation Pipeline Post Process Assets time: 0.000019s
+Assembly Updater Post Process Assets time: 0.000061s
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+<RI> Initialized touch support.
+<RI> Initialized touch support.
+Updating Assets/Palette/Ground Palette.prefab - GUID: c215506ab186cec419e4af69bc784d6c...
+----- Compute hash for Assets/Palette/Ground Palette.prefab.
+ done. [Time: 7.800466 ms] 
+Script Compilation Pipeline Post Process Assets time: 0.000009s
+Assembly Updater Post Process Assets time: 0.000061s
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+
+Hashing assets (1 files)... 0.001 seconds
+  file read: 0.000 seconds (0.005 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Palette/Ground Palette.prefab - GUID: c215506ab186cec419e4af69bc784d6c...
+ done. [Time: 7.213281 ms] 
+Script Compilation Pipeline Post Process Assets time: 0.000008s
+Assembly Updater Post Process Assets time: 0.000061s
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.25 ms.
+Refresh: detecting if any assets need to be imported or removed ...
+
+Refresh Completed time: 0.022081s
+	Asset Scan time: 0.019423s
+	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Scripting) time: 0.000000s (count: 0)
+	Post Processs Assets (Scripting) time: 0.000000s
+	Asset Rehashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Non Scripting) time: 0.000000s (count: 0)
+	Post Process Assets (Non Scripting) time: 0.000000s
+	Dependent Assets to Import Queue time: 0.000000s
+
+
+Hashing assets (1 files)... 0.001 seconds
+  file read: 0.000 seconds (0.005 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Palette/Ground Palette.prefab - GUID: c215506ab186cec419e4af69bc784d6c...
+ done. [Time: 7.396428 ms] 
+Script Compilation Pipeline Post Process Assets time: 0.000010s
+Assembly Updater Post Process Assets time: 0.000101s
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+Updating Assets/Tiles/Ground Tiles/Platform Tileset_0.asset - GUID: 16fa4e9f0a48df3419ae75064e182317...
+----- Compute hash for Assets/Tiles/Ground Tiles/Platform Tileset_0.asset.
+ done. [Time: 34.382670 ms] 
+Script Compilation Pipeline Post Process Assets time: 0.000006s
+Assembly Updater Post Process Assets time: 0.000063s
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.33 ms.
+Updating Assets/Tiles/Ground Tiles/Platform Tileset_1.asset - GUID: 1488b788144b08f419868bc7c84c0372...
+----- Compute hash for Assets/Tiles/Ground Tiles/Platform Tileset_1.asset.
+ done. [Time: 30.312747 ms] 
+Script Compilation Pipeline Post Process Assets time: 0.000010s
+Assembly Updater Post Process Assets time: 0.000110s
+Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+Updating Assets/Tiles/Ground Tiles/Platform Tileset_2.asset - GUID: e4b43c320dc40e54bb0b16d49fd4df7e...
+----- Compute hash for Assets/Tiles/Ground Tiles/Platform Tileset_2.asset.
+ done. [Time: 5.590110 ms] 
+Script Compilation Pipeline Post Process Assets time: 0.000006s
+Assembly Updater Post Process Assets time: 0.000062s
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+Refresh: detecting if any assets need to be imported or removed ...
+
+Refresh Completed time: 0.019920s
+	Asset Scan time: 0.017520s
+	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Scripting) time: 0.000000s (count: 0)
+	Post Processs Assets (Scripting) time: 0.000000s
+	Asset Rehashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Non Scripting) time: 0.000000s (count: 0)
+	Post Process Assets (Non Scripting) time: 0.000000s
+	Dependent Assets to Import Queue time: 0.000000s
+
+
+Hashing assets (1 files)... 0.001 seconds
+  file read: 0.000 seconds (0.006 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Palette/Ground Palette.prefab - GUID: c215506ab186cec419e4af69bc784d6c...
+ done. [Time: 6.586891 ms] 
+Script Compilation Pipeline Post Process Assets time: 0.000008s
+Assembly Updater Post Process Assets time: 0.000060s
+Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+Updating Assets/Tiles/Ground Tiles/Platform Tileset_3.asset - GUID: 4b2106a4997fb6d41ad20af146915256...
+----- Compute hash for Assets/Tiles/Ground Tiles/Platform Tileset_3.asset.
+ done. [Time: 6.533643 ms] 
+Script Compilation Pipeline Post Process Assets time: 0.000006s
+Assembly Updater Post Process Assets time: 0.000082s
+Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.24 ms.
+Refresh: detecting if any assets need to be imported or removed ...
+
+Refresh Completed time: 0.019891s
+	Asset Scan time: 0.017397s
+	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Scripting) time: 0.000000s (count: 0)
+	Post Processs Assets (Scripting) time: 0.000000s
+	Asset Rehashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Non Scripting) time: 0.000000s (count: 0)
+	Post Process Assets (Non Scripting) time: 0.000000s
+	Dependent Assets to Import Queue time: 0.000000s
+
+
+Hashing assets (1 files)... 0.001 seconds
+  file read: 0.000 seconds (0.006 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Palette/Ground Palette.prefab - GUID: c215506ab186cec419e4af69bc784d6c...
+ done. [Time: 8.697189 ms] 
+Script Compilation Pipeline Post Process Assets time: 0.000009s
+Assembly Updater Post Process Assets time: 0.000063s
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
+Script Compilation Pipeline Post Process Assets time: 0.000018s
+Assembly Updater Post Process Assets time: 0.000109s
+
+Hashing assets (1 files)... 0.001 seconds
+  file read: 0.000 seconds (0.021 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Scenes/Brad Pablo.unity - GUID: 738f4c5181f31b040a31f6008ad74556...
+ done. [Time: 3.922761 ms] 
+Updating ProjectSettings/ProjectSettings.asset - GUID: 00000000000000004000000000000000...
+ done. [Time: 4.009361 ms] 
+Script Compilation Pipeline Post Process Assets time: 0.000011s
+Assembly Updater Post Process Assets time: 0.000110s
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+
+Hashing assets (1 files)... 0.001 seconds
+  file read: 0.000 seconds (0.016 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Scenes/Brad Pablo.unity - GUID: 738f4c5181f31b040a31f6008ad74556...
+ done. [Time: 3.611468 ms] 
+Script Compilation Pipeline Post Process Assets time: 0.000008s
+Assembly Updater Post Process Assets time: 0.000058s
+Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+Reloading assemblies for play mode.
+Begin MonoManager ReloadAssembly
+Initializing Unity.PackageManager (PackageManager) v2018.3.4 for Unity v2018.3.4f1
+Registering platform support modules:
+Registered platform support modules in: 0.041383s.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for Facebook target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.32 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.401 seconds
+Platform modules already initialized, skipping
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.295787 ms 
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.260094 ms 
+Unloading 80 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.4 MB.
+System memory in use after: 156.5 MB.
+
+Unloading 85 unused Assets to reduce memory usage. Loaded Objects now: 1826.
+Total: 5.819191 ms (FindLiveObjects: 0.411937 ms CreateObjectMapping: 0.047396 ms MarkObjects: 5.318021 ms  DeleteObjects: 0.041252 ms)
+
+Reloading assemblies for play mode.
+Begin MonoManager ReloadAssembly
+Initializing Unity.PackageManager (PackageManager) v2018.3.4 for Unity v2018.3.4f1
+Registering platform support modules:
+Registered platform support modules in: 0.0423279s.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for Facebook target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.29 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.464 seconds
+Platform modules already initialized, skipping
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.330310 ms 
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.287888 ms 
+Unloading 69 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.7 MB.
+System memory in use after: 156.8 MB.
+
+Unloading 68 unused Assets to reduce memory usage. Loaded Objects now: 1859.
+Total: 5.280572 ms (FindLiveObjects: 0.340842 ms CreateObjectMapping: 0.023698 ms MarkObjects: 4.877412 ms  DeleteObjects: 0.037449 ms)
+
+Script Compilation Pipeline Post Process Assets time: 0.000113s
+Assembly Updater Post Process Assets time: 0.000063s
+Refreshing native plugins compatible for Editor in 0.30 ms, found 3 plugins.
+
+Hashing assets (1 files)... 0.001 seconds
+  file read: 0.000 seconds (0.016 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Scenes/Brad Pablo.unity - GUID: 738f4c5181f31b040a31f6008ad74556...
+ done. [Time: 5.808366 ms] 
+Script Compilation Pipeline Post Process Assets time: 0.000011s
+Assembly Updater Post Process Assets time: 0.000068s
+Refreshing native plugins compatible for Editor in 0.34 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+
+Hashing assets (1 files)... 0.001 seconds
+  file read: 0.000 seconds (0.020 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Scenes/Brad Pablo.unity - GUID: 738f4c5181f31b040a31f6008ad74556...
+ done. [Time: 3.746049 ms] 
+Script Compilation Pipeline Post Process Assets time: 0.000009s
+Assembly Updater Post Process Assets time: 0.000075s
+Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+Script Compilation Pipeline Post Process Assets time: 0.000006s
+Assembly Updater Post Process Assets time: 0.000059s
+
+Hashing assets (1 files)... 0.001 seconds
+  file read: 0.000 seconds (0.020 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Scenes/Brad Pablo.unity - GUID: 738f4c5181f31b040a31f6008ad74556...
+ done. [Time: 3.215622 ms] 
+Script Compilation Pipeline Post Process Assets time: 0.000007s
+Assembly Updater Post Process Assets time: 0.000056s
+Refreshing native plugins compatible for Editor in 0.32 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+
+Hashing assets (1 files)... 0.001 seconds
+  file read: 0.000 seconds (0.020 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Scenes/Brad Pablo.unity - GUID: 738f4c5181f31b040a31f6008ad74556...
+ done. [Time: 3.312755 ms] 
+Script Compilation Pipeline Post Process Assets time: 0.000011s
+Assembly Updater Post Process Assets time: 0.000093s
+Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+Reloading assemblies for play mode.
+Begin MonoManager ReloadAssembly
+Initializing Unity.PackageManager (PackageManager) v2018.3.4 for Unity v2018.3.4f1
+Registering platform support modules:
+Registered platform support modules in: 0.0403253s.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for Facebook target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.383 seconds
+Platform modules already initialized, skipping
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.280866 ms 
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.252194 ms 
+Unloading 70 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.7 MB.
+System memory in use after: 156.8 MB.
+
+Unloading 69 unused Assets to reduce memory usage. Loaded Objects now: 1858.
+Total: 4.979811 ms (FindLiveObjects: 0.329725 ms CreateObjectMapping: 0.022820 ms MarkObjects: 4.590110 ms  DeleteObjects: 0.036571 ms)
+
+<RI> Initialized touch support.
+Reloading assemblies for play mode.
+Begin MonoManager ReloadAssembly
+Initializing Unity.PackageManager (PackageManager) v2018.3.4 for Unity v2018.3.4f1
+Registering platform support modules:
+Registered platform support modules in: 0.0403789s.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for Facebook target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.384 seconds
+Platform modules already initialized, skipping
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.349620 ms 
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.259508 ms 
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.3 MB.
+System memory in use after: 156.4 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1863.
+Total: 5.512579 ms (FindLiveObjects: 0.360737 ms CreateObjectMapping: 0.035986 ms MarkObjects: 5.086014 ms  DeleteObjects: 0.028964 ms)
+
+Reloading assemblies for play mode.
+Begin MonoManager ReloadAssembly
+Initializing Unity.PackageManager (PackageManager) v2018.3.4 for Unity v2018.3.4f1
+Registering platform support modules:
+Registered platform support modules in: 0.0424479s.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for Facebook target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.29 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.372 seconds
+Platform modules already initialized, skipping
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.314804 ms 
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.274722 ms 
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.0 MB.
+System memory in use after: 156.1 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1841.
+Total: 4.875657 ms (FindLiveObjects: 0.318900 ms CreateObjectMapping: 0.021943 ms MarkObjects: 4.509946 ms  DeleteObjects: 0.023698 ms)
+
+<RI> Initialized touch support.
+Script Compilation Pipeline Post Process Assets time: 0.000105s
+Assembly Updater Post Process Assets time: 0.000063s
+Refreshing native plugins compatible for Editor in 0.30 ms, found 3 plugins.
+
+Hashing assets (1 files)... 0.001 seconds
+  file read: 0.000 seconds (0.020 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Scenes/Brad Pablo.unity - GUID: 738f4c5181f31b040a31f6008ad74556...
+ done. [Time: 5.638091 ms] 
+Script Compilation Pipeline Post Process Assets time: 0.000008s
+Assembly Updater Post Process Assets time: 0.000056s
+Refreshing native plugins compatible for Editor in 0.32 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+
+Hashing assets (1 files)... 0.001 seconds
+  file read: 0.000 seconds (0.024 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Scenes/Brad Pablo.unity - GUID: 738f4c5181f31b040a31f6008ad74556...
+ done. [Time: 3.281450 ms] 
+Script Compilation Pipeline Post Process Assets time: 0.000007s
+Assembly Updater Post Process Assets time: 0.000057s
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+Reloading assemblies for play mode.
+Begin MonoManager ReloadAssembly
+Initializing Unity.PackageManager (PackageManager) v2018.3.4 for Unity v2018.3.4f1
+Registering platform support modules:
+Registered platform support modules in: 0.0401817s.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for Facebook target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.362 seconds
+Platform modules already initialized, skipping
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.301053 ms 
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.278525 ms 
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.2 MB.
+System memory in use after: 156.3 MB.
+
+Unloading 75 unused Assets to reduce memory usage. Loaded Objects now: 1836.
+Total: 5.338793 ms (FindLiveObjects: 0.381510 ms CreateObjectMapping: 0.040960 ms MarkObjects: 4.876535 ms  DeleteObjects: 0.038912 ms)
+
+Reloading assemblies for play mode.
+Begin MonoManager ReloadAssembly
+Initializing Unity.PackageManager (PackageManager) v2018.3.4 for Unity v2018.3.4f1
+Registering platform support modules:
+Registered platform support modules in: 0.0417382s.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for Facebook target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.29 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.465 seconds
+Platform modules already initialized, skipping
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.320655 ms 
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.276770 ms 
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.4 MB.
+System memory in use after: 156.4 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1856.
+Total: 5.427149 ms (FindLiveObjects: 0.407841 ms CreateObjectMapping: 0.034523 ms MarkObjects: 4.958454 ms  DeleteObjects: 0.025161 ms)
+
+<RI> Initialized touch support.
+Reloading assemblies for play mode.
+Begin MonoManager ReloadAssembly
+Initializing Unity.PackageManager (PackageManager) v2018.3.4 for Unity v2018.3.4f1
+Registering platform support modules:
+Registered platform support modules in: 0.0402712s.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for Facebook target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.386 seconds
+Platform modules already initialized, skipping
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.318900 ms 
+Crash!!!
+SymInit: Symbol-SearchPath: 'C:/Program Files/Unity/Hub/Editor/2018.3.4f1/Editor/Data/Mono;.;F:\University\GitHub\mgp-team-1\Unity\UnityProject;C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor;C:\WINDOWS;C:\WINDOWS\system32;SRV*C:\websymbols*http://msdl.microsoft.com/download/symbols;', symOptions: 534, UserName: 'ElleMelMarta'
+OS-Version: 10.0.0
+C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\Unity.exe:Unity.exe (0000000140000000), size: 78761984 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2018.3.4.38179
+C:\WINDOWS\SYSTEM32\ntdll.dll:ntdll.dll (00007FFB7ECE0000), size: 1970176 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.556
+C:\WINDOWS\System32\KERNEL32.DLL:KERNEL32.DLL (00007FFB7CA70000), size: 729088 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.556
+C:\WINDOWS\System32\KERNELBASE.dll:KERNELBASE.dll (00007FFB7B080000), size: 2568192 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.556
+C:\WINDOWS\System32\CRYPT32.dll:CRYPT32.dll (00007FFB7BD80000), size: 1974272 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\System32\ucrtbase.dll:ucrtbase.dll (00007FFB7B300000), size: 1024000 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.319
+C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\FreeImage.dll:FreeImage.dll (0000000180000000), size: 6164480 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.11.0.0
+C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\libfbxsdk.dll:libfbxsdk.dll (00007FFB33040000), size: 8511488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2018.1.1.0
+C:\WINDOWS\SYSTEM32\HID.DLL:HID.DLL (00007FFB79CF0000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\System32\MSASN1.dll:MSASN1.dll (00007FFB7B060000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\System32\msvcrt.dll:msvcrt.dll (00007FFB7CE20000), size: 647168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.17134.1
+C:\WINDOWS\System32\USER32.dll:USER32.dll (00007FFB7D0C0000), size: 1638400 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.376
+C:\WINDOWS\System32\win32u.dll:win32u.dll (00007FFB7BD60000), size: 131072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\System32\GDI32.dll:GDI32.dll (00007FFB7CC40000), size: 163840 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.285
+C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\umbraoptimizer64.dll:umbraoptimizer64.dll (00007FFB528C0000), size: 1306624 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\gdi32full.dll:gdi32full.dll (00007FFB7BBC0000), size: 1646592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.590
+C:\WINDOWS\System32\WS2_32.dll:WS2_32.dll (00007FFB7D610000), size: 442368 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\System32\msvcp_win.dll:msvcp_win.dll (00007FFB7C020000), size: 651264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.137
+C:\WINDOWS\System32\RPCRT4.dll:RPCRT4.dll (00007FFB7EB40000), size: 1196032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.471
+C:\WINDOWS\System32\ADVAPI32.dll:ADVAPI32.dll (00007FFB7C1E0000), size: 659456 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.471
+C:\WINDOWS\System32\WLDAP32.dll:WLDAP32.dll (00007FFB7D5B0000), size: 389120 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\System32\SHELL32.dll:SHELL32.dll (00007FFB7D700000), size: 21233664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.441
+C:\WINDOWS\System32\sechost.dll:sechost.dll (00007FFB7CEC0000), size: 372736 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.319
+C:\WINDOWS\System32\Normaliz.dll:Normaliz.dll (00007FFB7D330000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\System32\cfgmgr32.dll:cfgmgr32.dll (00007FFB7B400000), size: 299008 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\ispc_texcomp.dll:ispc_texcomp.dll (00007FFB49AC0000), size: 1523712 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\shcore.dll:shcore.dll (00007FFB7CB30000), size: 692224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.112
+C:\WINDOWS\System32\combase.dll:combase.dll (00007FFB7C6E0000), size: 3284992 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.523
+C:\WINDOWS\System32\bcryptPrimitives.dll:bcryptPrimitives.dll (00007FFB7C0C0000), size: 499712 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\System32\windows.storage.dll:windows.storage.dll (00007FFB7B450000), size: 7393280 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.556
+C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\libcef.dll:libcef.dll (00007FFB2FE70000), size: 52219904 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.2062.1930.0
+C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\OpenCL.dll:OpenCL.dll (00007FFB56490000), size: 552960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.2.1.0
+C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\RadeonRays.dll:RadeonRays.dll (00007FFB555D0000), size: 618496 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\ole32.dll:ole32.dll (00007FFB7D340000), size: 1380352 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.407
+C:\WINDOWS\System32\shlwapi.dll:shlwapi.dll (00007FFB7CA10000), size: 331776 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\System32\kernel.appcore.dll:kernel.appcore.dll (00007FFB7B040000), size: 69632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.112
+C:\WINDOWS\System32\PSAPI.DLL:PSAPI.DLL (00007FFB7D320000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\System32\profapi.dll:profapi.dll (00007FFB7B020000), size: 126976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\System32\COMDLG32.dll:COMDLG32.dll (00007FFB7D4A0000), size: 970752 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\System32\powrprof.dll:powrprof.dll (00007FFB7AFC0000), size: 311296 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\System32\FLTLIB.DLL:FLTLIB.DLL (00007FFB7B010000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\SketchUpAPI.dll:SketchUpAPI.dll (00007FFB2F600000), size: 8822784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 18.0.18664.0
+C:\WINDOWS\System32\IMM32.dll:IMM32.dll (00007FFB7CDF0000), size: 184320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\SYSTEM32\VCRUNTIME140.dll:VCRUNTIME140.dll (00007FFB74BE0000), size: 86016 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.16.27024.1
+C:\WINDOWS\System32\SETUPAPI.dll:SETUPAPI.dll (00007FFB7C290000), size: 4501504 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\System32\OLEAUT32.dll:OLEAUT32.dll (00007FFB7D250000), size: 798720 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.556
+C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\embree.dll:embree.dll (00007FFB2E610000), size: 16711680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.14.0.0
+C:\WINDOWS\SYSTEM32\WINSPOOL.DRV:WINSPOOL.DRV (00007FFB66B80000), size: 544768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.319
+C:\WINDOWS\SYSTEM32\MSVCP140.dll:MSVCP140.dll (00007FFB54190000), size: 634880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.16.27024.1
+C:\WINDOWS\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FFB48C80000), size: 1179648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\SYSTEM32\GLU32.dll:GLU32.dll (00007FFB69270000), size: 180224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FFB7A560000), size: 229376 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17134.590_none_fb3d9bff3069e088\COMCTL32.dll:COMCTL32.dll (00007FFB6E7D0000), size: 2527232 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.10.17134.590
+C:\WINDOWS\SYSTEM32\WINHTTP.dll:WINHTTP.dll (00007FFB76CE0000), size: 905216 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.590
+C:\WINDOWS\SYSTEM32\WINMM.dll:WINMM.dll (00007FFB79250000), size: 143360 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\SYSTEM32\bcrypt.dll:bcrypt.dll (00007FFB7AB20000), size: 151552 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.112
+C:\WINDOWS\SYSTEM32\WSOCK32.dll:WSOCK32.dll (00007FFB74BD0000), size: 36864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\SYSTEM32\VERSION.dll:VERSION.dll (00007FFB76850000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\SYSTEM32\Secur32.dll:Secur32.dll (00007FFB6FCA0000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\SketchUpCommonPreferences.dll:SketchUpCommonPreferences.dll (00007FFB577A0000), size: 471040 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\WinPixEventRuntime.dll:WinPixEventRuntime.dll (00007FFB2D600000), size: 16826368 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.0.1701.26001
+C:\WINDOWS\SYSTEM32\USERENV.dll:USERENV.dll (00007FFB7AEF0000), size: 163840 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\SYSTEM32\urlmon.dll:urlmon.dll (00007FFB72F70000), size: 1871872 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 11.0.17134.523
+C:\WINDOWS\SYSTEM32\WTSAPI32.dll:WTSAPI32.dll (00007FFB78200000), size: 77824 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL:dhcpcsvc.DLL (00007FFB75C30000), size: 106496 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\System32\NSI.dll:NSI.dll (00007FFB7EC70000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\SYSTEM32\OLEACC.dll:OLEACC.dll (00007FFB75300000), size: 438272 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.2.17134.1
+C:\WINDOWS\SYSTEM32\USP10.dll:USP10.dll (00007FFB56D20000), size: 102400 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\SYSTEM32\PROPSYS.dll:PROPSYS.dll (00007FFB77600000), size: 1785856 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.17134.112
+C:\WINDOWS\SYSTEM32\CRYPTBASE.DLL:CRYPTBASE.DLL (00007FFB7A990000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\tbb.dll:tbb.dll (00007FFB578D0000), size: 413696 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2017.0.2016.1004
+C:\WINDOWS\SYSTEM32\WINMMBASE.dll:WINMMBASE.dll (00007FFB79220000), size: 172032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\SYSTEM32\iertutil.dll:iertutil.dll (00007FFB6FD30000), size: 2772992 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 11.0.17134.556
+C:\WINDOWS\SYSTEM32\SSPICLI.DLL:SSPICLI.DLL (00007FFB7AEC0000), size: 196608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.376
+C:\WINDOWS\SYSTEM32\MSVCP120.dll:MSVCP120.dll (00007FFB53350000), size: 679936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 12.0.40649.5
+C:\WINDOWS\SYSTEM32\MSVCR120.dll:MSVCR120.dll (00007FFB47EC0000), size: 978944 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 12.0.40649.5
+C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\OpenRL.dll:OpenRL.dll (0000000000E10000), size: 12779520 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.5.100.0
+C:\WINDOWS\SYSTEM32\MSVCP100.dll:MSVCP100.dll (00000000549B0000), size: 622592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.40219.325
+C:\WINDOWS\SYSTEM32\MSVCR100.dll:MSVCR100.dll (00000000548D0000), size: 860160 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.40219.325
+C:\WINDOWS\SYSTEM32\MSWSOCK.DLL:MSWSOCK.DLL (00007FFB7A7E0000), size: 417792 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\OpenRL_pthread.dll:OpenRL_pthread.dll (0000000000630000), size: 61440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.9.0.0
+C:\WINDOWS\system32\uxtheme.dll:uxtheme.dll (00007FFB79500000), size: 622592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\SYSTEM32\dhcpcsvc6.DLL:dhcpcsvc6.DLL (00007FFB75F10000), size: 90112 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\System32\clbcatq.dll:clbcatq.dll (00007FFB7C140000), size: 655360 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2001.12.10941.16384
+C:\WINDOWS\system32\wbem\wbemprox.dll:wbemprox.dll (00007FFB74E30000), size: 69632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\SYSTEM32\wbemcomn.dll:wbemcomn.dll (00007FFB74DA0000), size: 536576 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\system32\wbem\wbemsvc.dll:wbemsvc.dll (00007FFB74320000), size: 81920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\system32\wbem\fastprox.dll:fastprox.dll (00007FFB74340000), size: 991232 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\SYSTEM32\CRYPTSP.dll:CRYPTSP.dll (00007FFB7A9A0000), size: 94208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\system32\rsaenh.dll:rsaenh.dll (00007FFB7A3C0000), size: 208896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.254
+C:\WINDOWS\System32\MSCTF.dll:MSCTF.dll (00007FFB7CC70000), size: 1519616 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.376
+C:\WINDOWS\SYSTEM32\TextInputFramework.dll:TextInputFramework.dll (00007FFB6AD50000), size: 614400 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.376
+C:\WINDOWS\SYSTEM32\CoreUIComponents.dll:CoreUIComponents.dll (00007FFB6F960000), size: 3268608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.376
+C:\WINDOWS\SYSTEM32\CoreMessaging.dll:CoreMessaging.dll (00007FFB78B80000), size: 892928 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.471
+C:\WINDOWS\SYSTEM32\wintypes.dll:wintypes.dll (00007FFB76A10000), size: 1363968 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.523
+C:\WINDOWS\SYSTEM32\ntmarta.dll:ntmarta.dll (00007FFB7A0B0000), size: 200704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\system32\dwmapi.dll:dwmapi.dll (00007FFB79750000), size: 167936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\System32\netprofm.dll:netprofm.dll (00007FFB774E0000), size: 221184 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\System32\npmproxy.dll:npmproxy.dll (00007FFB756D0000), size: 61440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.590
+C:\WINDOWS\SYSTEM32\DNSAPI.dll:DNSAPI.dll (00007FFB7A5A0000), size: 778240 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.441
+C:\WINDOWS\System32\fwpuclnt.dll:fwpuclnt.dll (00007FFB755B0000), size: 466944 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\Windows\System32\rasadhlp.dll:rasadhlp.dll (00007FFB756C0000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\System32\MMDevApi.dll:MMDevApi.dll (00007FFB75730000), size: 483328 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\System32\DEVOBJ.dll:DEVOBJ.dll (00007FFB7ADD0000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\SYSTEM32\AUDIOSES.DLL:AUDIOSES.DLL (00007FFB623E0000), size: 1228800 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.471
+C:\WINDOWS\SYSTEM32\AVRT.dll:AVRT.dll (00007FFB70760000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\system32\explorerframe.dll:explorerframe.dll (00007FFB63A70000), size: 4804608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\SYSTEM32\d3d11.dll:d3d11.dll (00007FFB77EE0000), size: 3190784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.441
+C:\WINDOWS\SYSTEM32\dxgi.dll:dxgi.dll (00007FFB79D80000), size: 765952 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.112
+C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_21a764822be8dff8\nvldumdx.dll:nvldumdx.dll (00007FFB74C20000), size: 974848 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 25.21.14.1891
+C:\WINDOWS\System32\WINTRUST.DLL:WINTRUST.DLL (00007FFB7BB60000), size: 356352 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.556
+C:\WINDOWS\System32\imagehlp.dll:imagehlp.dll (00007FFB7D590000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_21a764822be8dff8\nvwgf2umx.dll:nvwgf2umx.dll (00007FFB3AFE0000), size: 38019072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 25.21.14.1891
+C:\WINDOWS\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FFB6F310000), size: 1871872 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\tbbmalloc.dll:tbbmalloc.dll (00007FFB668A0000), size: 372736 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2017.0.2016.1004
+C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\Data\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll:mono-2.0-bdwgc.dll (00007FFB2CE90000), size: 7757824 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\Data\UnityExtensions\Unity\VR\Win64\audiopluginresonanceaudio.dll:audiopluginresonanceaudio.dll (00007FFB2CA90000), size: 4165632 (result: 0), SymType: '-deferred-', PDB: ''
+C:\ProgramData\Microsoft\VisualStudio\Setup\x64\Microsoft.VisualStudio.Setup.Configuration.Native.dll:Microsoft.VisualStudio.Setup.Configuration.Native.dll (00007FFB66940000), size: 421888 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.17.1230.42073
+C:\WINDOWS\system32\dataexchange.dll:dataexchange.dll (00007FFB65620000), size: 360448 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\system32\dcomp.dll:dcomp.dll (00007FFB789E0000), size: 1687552 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\system32\twinapi.appcore.dll:twinapi.appcore.dll (00007FFB79830000), size: 1802240 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.137
+C:\WINDOWS\system32\RMCLIENT.dll:RMCLIENT.dll (00007FFB79780000), size: 167936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.556
+C:\WINDOWS\SYSTEM32\xinput1_3.dll:xinput1_3.dll (000000004B3E0000), size: 122880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 9.18.944.0
+C:\WINDOWS\system32\NLAapi.dll:NLAapi.dll (00007FFB78880000), size: 102400 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\SYSTEM32\mscms.dll:mscms.dll (00007FFB74B10000), size: 688128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\SYSTEM32\ColorAdapterClient.dll:ColorAdapterClient.dll (00007FFB792C0000), size: 65536 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\SYSTEM32\icm32.dll:icm32.dll (00007FFB519E0000), size: 274432 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\Program Files\Common Files\microsoft shared\ink\tiptsf.dll:tiptsf.dll (00007FFB55670000), size: 675840 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.191
+C:\WINDOWS\SYSTEM32\edputil.dll:edputil.dll (00007FFB77280000), size: 278528 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\system32\DUI70.dll:DUI70.dll (00007FFB643F0000), size: 1748992 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.112
+C:\WINDOWS\system32\DUser.dll:DUser.dll (00007FFB56380000), size: 602112 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\SYSTEM32\WindowsCodecs.dll:WindowsCodecs.dll (00007FFB711B0000), size: 1761280 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.345
+C:\Windows\System32\thumbcache.dll:thumbcache.dll (00007FFB655C0000), size: 376832 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.441
+C:\WINDOWS\SYSTEM32\policymanager.dll:policymanager.dll (00007FFB768C0000), size: 520192 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.191
+C:\WINDOWS\SYSTEM32\msvcp110_win.dll:msvcp110_win.dll (00007FFB78C60000), size: 593920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\Windows\System32\Windows.Globalization.dll:Windows.Globalization.dll (00007FFB673D0000), size: 1609728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.556
+C:\Windows\System32\Bcp47Langs.dll:Bcp47Langs.dll (00007FFB6F530000), size: 327680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\Windows\System32\bcp47mrm.dll:bcp47mrm.dll (00007FFB6DDA0000), size: 167936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\SYSTEM32\globinputhost.dll:globinputhost.dll (00007FFB64730000), size: 172032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\System32\StructuredQuery.dll:StructuredQuery.dll (00007FFB614D0000), size: 700416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.17134.228
+C:\WINDOWS\SYSTEM32\atlthunk.dll:atlthunk.dll (00007FFB6EA40000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\system32\Windows.Storage.Search.dll:Windows.Storage.Search.dll (00007FFB60870000), size: 774144 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\SYSTEM32\CLDAPI.dll:CLDAPI.dll (00007FFB77E80000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\Windows\System32\OneCoreUAPCommonProxyStub.dll:OneCoreUAPCommonProxyStub.dll (00007FFB721E0000), size: 6926336 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\SYSTEM32\MPR.dll:MPR.dll (00007FFB66390000), size: 106496 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\System32\coml2.dll:coml2.dll (00007FFB7D680000), size: 475136 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.407
+C:\WINDOWS\System32\drprov.dll:drprov.dll (00007FFB6AC90000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\System32\WINSTA.dll:WINSTA.dll (00007FFB7AA50000), size: 352256 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\System32\ntlanman.dll:ntlanman.dll (00007FFB587D0000), size: 90112 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\System32\davclnt.dll:davclnt.dll (00007FFB57EB0000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\System32\DAVHLPR.dll:DAVHLPR.dll (00007FFB6AC80000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\SYSTEM32\LINKINFO.dll:LINKINFO.dll (00007FFB75210000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\System32\wkscli.dll:wkscli.dll (00007FFB77140000), size: 94208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\SYSTEM32\cscapi.dll:cscapi.dll (00007FFB5F190000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\System32\netutils.dll:netutils.dll (00007FFB7A660000), size: 57344 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\Windows\System32\twinapi.dll:twinapi.dll (00007FFB6AA80000), size: 634880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\SYSTEM32\apphelp.dll:apphelp.dll (00007FFB79350000), size: 569344 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\Windows\System32\dlnashext.dll:dlnashext.dll (00007FFB56300000), size: 303104 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\Windows\System32\PlayToDevice.dll:PlayToDevice.dll (00007FFB60D40000), size: 405504 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\Windows\System32\DevDispItemProvider.dll:DevDispItemProvider.dll (00007FFB553B0000), size: 122880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\Users\ElleMelMarta\AppData\Local\Microsoft\OneDrive\19.002.0107.0008\amd64\FileSyncShell64.dll:FileSyncShell64.dll (00007FFB61890000), size: 1449984 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 19.2.107.8
+C:\WINDOWS\SYSTEM32\ktmw32.dll:ktmw32.dll (00007FFB5FB70000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\SYSTEM32\WININET.dll:WININET.dll (00007FFB6DDD0000), size: 4968448 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 11.0.17134.590
+C:\Windows\System32\EhStorShell.dll:EhStorShell.dll (00007FFB66350000), size: 225280 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\System32\cscui.dll:cscui.dll (00007FFB60DB0000), size: 819200 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\Windows\System32\PortableDeviceApi.dll:PortableDeviceApi.dll (00007FFB5DA80000), size: 638976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\Windows\System32\PortableDeviceTypes.dll:PortableDeviceTypes.dll (00007FFB75B20000), size: 196608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\Windows\System32\EhStorAPI.dll:EhStorAPI.dll (00007FFB61680000), size: 151552 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\SYSTEM32\ntshrui.dll:ntshrui.dll (00007FFB62130000), size: 892928 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\SYSTEM32\srvcli.dll:srvcli.dll (00007FFB66430000), size: 155648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\WINDOWS\system32\NetworkExplorer.dll:NetworkExplorer.dll (00007FFB51AE0000), size: 1208320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+C:\Windows\System32\Windows.StateRepositoryPS.dll:Windows.StateRepositoryPS.dll (00007FFB68260000), size: 1249280 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17134.1
+
+========== OUTPUTTING STACK TRACE ==================
+
+0x0000000141C4BE31 (Unity) WorldContactFilter2D::ShouldCollide
+0x0000000141BACB95 (Unity) b2BroadPhase::UpdatePairs<b2ContactManager>
+0x0000000141BB066A (Unity) b2World::Solve
+0x0000000141BB1B08 (Unity) b2World::Step
+0x0000000141BFFDCB (Unity) PhysicsManager2D::Simulate
+0x0000000141BF41EA (Unity) PhysicsManager2D::FixedUpdate
+0x0000000141BF43A1 (Unity) `PhysicsManager2D::Initialize'::`2'::FixedUpdatePhysics2DFixedUpdateRegistrator::Forward
+0x000000014095FFD7 (Unity) ExecutePlayerLoop
+0x00000001409600A3 (Unity) ExecutePlayerLoop
+0x0000000140963351 (Unity) PlayerLoop
+0x000000014133DD4F (Unity) PlayerLoopController::UpdateScene
+0x000000014133C300 (Unity) Application::TickTimer
+0x00000001414981CB (Unity) MainMessageLoop
+0x0000000141499E66 (Unity) WinMain
+0x000000014247DE8A (Unity) __scrt_common_main_seh
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+========== END OF STACKTRACE ===========
+
+A crash has been intercepted by the crash handler. For call stack and other details, see the latest crash report generated in:
+ * C:/Users/ELLEME~1/AppData/Local/Temp/Unity/Editor/Crashes
