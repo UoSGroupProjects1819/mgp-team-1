@@ -155,7 +155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01641445566da6a4f806acd813412211, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerHP: 4
+  playerHP: 1
   isDead: 0
 --- !u!1 &6643184900688030759
 GameObject:

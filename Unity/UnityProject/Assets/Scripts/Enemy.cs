@@ -22,7 +22,7 @@ public class Enemy : MonoBehaviour
     private int currentBulletsShot = 0;
 
     private PlayerHealth playerHealth;
-    public int enemyHealth;
+    //public int enemyHealth;
 
     void Awake()
     {
@@ -49,10 +49,12 @@ public class Enemy : MonoBehaviour
     {
         CheckIfTimeToFire();
 
-        if (enemyHealth <= 0)
-        {
-            gameObject.SetActive(false);
-        }
+        //Not using as enemies can no longer kill themselves
+
+        //if (enemyHealth <= 0)
+        //{
+        //    gameObject.SetActive(false);
+        //}
     }
 
 
@@ -108,11 +110,13 @@ public class Enemy : MonoBehaviour
         print("player health = " + playerHealth.playerHP);
     }
 
-    public void DamageSelf(int bulletDamage)
-    {
-        enemyHealth -= bulletDamage;
-        print("enemy health = " + enemyHealth);
-    }
+    //No longer having enemies hurt themselves with their bullets
+
+    //public void DamageSelf(int bulletDamage)
+    //{
+    //    enemyHealth -= bulletDamage;
+    //    print("enemy health = " + enemyHealth);
+    //}
 
     //TODO:
     //the bullets will kill the enemy it comes from no matter which enemy it hits

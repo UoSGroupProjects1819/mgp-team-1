@@ -24,6 +24,11 @@ public class Bullet : MonoBehaviour
 
     public int bulletDamage;
 
+    public int extraBounces;
+    public int extraBouncesPriv;
+
+    ContactPoint2D[] myContact = new ContactPoint2D[1];
+
     void Start()
     {
         privTimer = timer;
@@ -33,6 +38,8 @@ public class Bullet : MonoBehaviour
         bulletCircleCollider = GetComponent<CircleCollider2D>();
 
         enemyScript = GetComponentInParent<Enemy>();
+
+        extraBouncesPriv = extraBounces;
     }
 
 
@@ -72,38 +79,16 @@ public class Bullet : MonoBehaviour
                 enemyScript.DamagePlayer(bulletDamage);
             }
 
-            DeactivateBullet();
-        }
-
-        //avoids null references when shield is set to inactive
-        if (playerShield != null)
-        {
-            //Needs to be set as a trigger to not be stopped by other bullets
-            if (collision.gameObject.tag == playerShield.tag)
-            {
-                bulletCircleCollider.isTrigger = true;
-            }
-        }
-    }
-    
-   
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.tag == "Ground" || other.tag == "Enemy" && bulletCircleCollider.isTrigger == true)
-        {
-            if (other.tag == "Enemy" && other.offset.x == 0)
-            {
-                enemyScript.DamageSelf(bulletDamage);
-
-                DeactivateBullet();
-            }
-
-            if (other.tag == "Ground")
+            if (extraBouncesPriv == 0)
             {
                 DeactivateBullet();
             }
+
+            else
+                extraBouncesPriv--;
         }
     }
+
 
     //Reset all variables for the bullet so it can act as normal on next spawn
     private void DeactivateBullet()
@@ -112,6 +97,45 @@ public class Bullet : MonoBehaviour
         transformRun = false;
         privTimer = timer;
         bulletCircleCollider.isTrigger = false;
+        extraBouncesPriv = extraBounces;
         gameObject.SetActive(false);
     }
+
+
+    //only needed if we decide to kill enemies (might have to change all bullet code especially for bouncing bullets if needed)
+
+    //void OnTriggerEnter2D(Collider2D other)
+    //{
+    //    if (other.tag == "Ground" || other.tag == "Enemy" && bulletCircleCollider.isTrigger == true)
+    //    {
+    //        if (other.tag == "Enemy" && other.offset.x == 0)
+    //        {
+    //            enemyScript.DamageSelf(bulletDamage);
+
+    //            DeactivateBullet();
+    //        }
+
+    //        if (other.tag == "Ground" && extraBouncesPriv == 0)
+    //        {
+    //            DeactivateBullet();
+    //        }
+
+    //    }
+    //}
+
+
+
+    //only needed if we decide to kill enemies (this goes into onCollisionEnter)
+
+    ////avoids null references when shield is set to inactive
+    //if (playerShield != null)
+    //{
+    //    //Needs to be set as a trigger to not be stopped by other bullets
+    //    if (collision.gameObject.tag == playerShield.tag)
+    //    {
+    //        bulletCircleCollider.isTrigger = true;
+    //    }
+    //}
+
+
 }
