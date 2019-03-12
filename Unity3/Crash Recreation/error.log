@@ -1,0 +1,1858 @@
+﻿Unity Editor by Unity Technologies [version: Unity 2018.3.4f1_1d952368ca3a]
+
+Unknown caused an Access Violation (0xc0000005)
+  in module Unknown at 0033:14a93700.
+
+Error occurred at 2019-02-28_182820.
+C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\Unity.exe, run by ElleMelMarta.
+
+27% physical memory in use.
+16333 MB physical memory [11859 MB free].
+1021 MB process peak paging file [917 MB used].
+604 MB process peak working set [541 MB used].
+System Commit Total/Limit/Peak: 7688MB/20543MB/26192MB
+System Physical Total/Available: 16333MB/11859MB
+System Process Count: 187
+System Thread Count: 2758
+System Handle Count: 87289
+Disk space data for 'C:\Users\ELLEME~1\AppData\Local\Temp\Unity\Editor\Crashes\Crash_2019-02-28_182734775\': 45210877952 bytes free of 125440094208 total.
+
+Write to location 0000000014A93700 caused an access violation.
+
+Context:
+RDI:    0x000000003b971330  RSI: 0x0000000045b6b910  RAX:   0x0000000042dd7000
+RBX:    0x000000003c51b590  RCX: 0x0000000045b6b910  RDX:   0x000000003c51b590
+RIP:    0x0000000014a93700  RBP: 0x0000000005141c10  SegCs: 0x0000000000000033
+EFlags: 0x0000000000010202  RSP: 0x00000000005fd758  SegSs: 0x000000000000002b
+R8:     0x000000003b971330  R9:  0x000000003c51b710  R10:   0x0000000000000000
+R11:    0x000000003b76a170  R12: 0x0000000000000000  R13:   0x000000003b9352f8
+R14:    0x0000000045b5dfd0  R15: 0x0000000000000000
+
+
+Bytes at CS:EIP:
+01 00 00 00 03 00 00 00 03 00 00 00 00 00 00 00 
+
+Mono DLL loaded successfully at 'C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\Data\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll'.
+
+
+Stack Trace of Crashed Thread 14788:
+ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 0000000014A93700)
+ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 0000000014A93700)
+0x0000000014A93700 ((<unknown>)) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000141C4BE4B)
+0x0000000141C4BE4B (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000141BACB95)
+0x0000000141BACB95 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000141BAEA29)
+0x0000000141BAEA29 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000141BB1A0D)
+0x0000000141BB1A0D (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000141BFFDCB)
+0x0000000141BFFDCB (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000141BF41EA)
+0x0000000141BF41EA (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000141BF43A1)
+0x0000000141BF43A1 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 000000014095FFD7)
+0x000000014095FFD7 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001409600A3)
+0x00000001409600A3 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140963351)
+0x0000000140963351 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 000000014133DD4F)
+0x000000014133DD4F (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 000000014132D773)
+0x000000014132D773 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001413396F3)
+0x00000001413396F3 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 000000014133C5D2)
+0x000000014133C5D2 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001414981CB)
+0x00000001414981CB (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000141499E66)
+0x0000000141499E66 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 000000014247DE8A)
+0x000000014247DE8A (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+Stacks for Running Threads:
+
+Call Stack for Thread 1996:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140AF6A28)
+0x0000000140AF6A28 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140AF6C2E)
+0x0000000140AF6C2E (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A70D24)
+0x0000000140A70D24 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 2744:
+0x00007FFB7ED7E2F4 (ntdll) ZwWaitForWorkViaWorkerFactory
+0x00007FFB7ED06866 (ntdll) RtlReleaseSRWLockExclusive
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 16540:
+0x00007FFB7ED7E2F4 (ntdll) ZwWaitForWorkViaWorkerFactory
+0x00007FFB7ED06866 (ntdll) RtlReleaseSRWLockExclusive
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 7260:
+0x00007FFB7ED7B024 (ntdll) NtDelayExecution
+0x00007FFB7B0C5E9A (KERNELBASE) SleepEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001412DFA62)
+0x00000001412DFA62 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A70D24)
+0x0000000140A70D24 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 4496:
+0x00007FFB7ED7B024 (ntdll) NtDelayExecution
+0x00007FFB7B0C5E9A (KERNELBASE) SleepEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001401DFA75)
+0x00000001401DFA75 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001401E1129)
+0x00000001401E1129 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A70D24)
+0x0000000140A70D24 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 24784:
+0x00007FFB7ED7AAC4 (ntdll) NtRemoveIoCompletion
+0x00007FFB7A7EF338 (MSWSOCK) Tcpip6_WSHStringToAddress
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 23596:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A6FD6)
+0x00000001408A6FD6 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A8F83)
+0x00000001408A8F83 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A70D24)
+0x0000000140A70D24 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 19524:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A6FD6)
+0x00000001408A6FD6 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A8F83)
+0x00000001408A8F83 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A70D24)
+0x0000000140A70D24 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 18352:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A6FD6)
+0x00000001408A6FD6 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A8F83)
+0x00000001408A8F83 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A70D24)
+0x0000000140A70D24 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 16796:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A6FD6)
+0x00000001408A6FD6 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A8F83)
+0x00000001408A8F83 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A70D24)
+0x0000000140A70D24 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 14300:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A6FD6)
+0x00000001408A6FD6 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A8F83)
+0x00000001408A8F83 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A70D24)
+0x0000000140A70D24 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 5572:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A6FD6)
+0x00000001408A6FD6 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A8F83)
+0x00000001408A8F83 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A70D24)
+0x0000000140A70D24 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 15148:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A6FD6)
+0x00000001408A6FD6 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A8F83)
+0x00000001408A8F83 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A70D24)
+0x0000000140A70D24 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 5292:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A6FD6)
+0x00000001408A6FD6 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A8F83)
+0x00000001408A8F83 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A70D24)
+0x0000000140A70D24 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 12268:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A6FD6)
+0x00000001408A6FD6 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A8F83)
+0x00000001408A8F83 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A70D24)
+0x0000000140A70D24 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 12088:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A6FD6)
+0x00000001408A6FD6 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A8F83)
+0x00000001408A8F83 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A70D24)
+0x0000000140A70D24 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 27584:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A6FD6)
+0x00000001408A6FD6 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A8F83)
+0x00000001408A8F83 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A70D24)
+0x0000000140A70D24 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 2104:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A6FD6)
+0x00000001408A6FD6 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A8F83)
+0x00000001408A8F83 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A70D24)
+0x0000000140A70D24 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 20180:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A6FD6)
+0x00000001408A6FD6 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A8F83)
+0x00000001408A8F83 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A70D24)
+0x0000000140A70D24 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 19472:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A6FD6)
+0x00000001408A6FD6 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A8F83)
+0x00000001408A8F83 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A70D24)
+0x0000000140A70D24 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 24616:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A6FD6)
+0x00000001408A6FD6 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A8F83)
+0x00000001408A8F83 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A70D24)
+0x0000000140A70D24 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 3812:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A6FD6)
+0x00000001408A6FD6 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A8F83)
+0x00000001408A8F83 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A70D24)
+0x0000000140A70D24 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 19516:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A6FD6)
+0x00000001408A6FD6 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A8F83)
+0x00000001408A8F83 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A70D24)
+0x0000000140A70D24 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 22028:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A6FD6)
+0x00000001408A6FD6 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A8F83)
+0x00000001408A8F83 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A70D24)
+0x0000000140A70D24 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 7532:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A6FD6)
+0x00000001408A6FD6 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A8F83)
+0x00000001408A8F83 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A70D24)
+0x0000000140A70D24 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 12096:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A6FD6)
+0x00000001408A6FD6 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A8F83)
+0x00000001408A8F83 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A70D24)
+0x0000000140A70D24 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 8892:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A6FD6)
+0x00000001408A6FD6 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A8F83)
+0x00000001408A8F83 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A70D24)
+0x0000000140A70D24 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 16248:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A6FD6)
+0x00000001408A6FD6 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A8F83)
+0x00000001408A8F83 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A70D24)
+0x0000000140A70D24 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 22904:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A6FD6)
+0x00000001408A6FD6 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A8F83)
+0x00000001408A8F83 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A70D24)
+0x0000000140A70D24 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 22752:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A739A7)
+0x0000000140A739A7 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A73AC7)
+0x0000000140A73AC7 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408E0B0B)
+0x00000001408E0B0B (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A70D24)
+0x0000000140A70D24 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 24144:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001406EE82D)
+0x00000001406EE82D (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001406EE609)
+0x00000001406EE609 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A70D24)
+0x0000000140A70D24 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 25428:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7A7E6A42 (MSWSOCK) Tcpip4_WSHOpenSocket2
+0x00007FFB7A7ED359 (MSWSOCK) NSPStartup
+0x00007FFB7D6266D0 (WS2_32) select
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001404FB7CF)
+0x00000001404FB7CF (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001421198EE)
+0x00000001421198EE (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A70D24)
+0x0000000140A70D24 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 21024:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 000000014210E105)
+0x000000014210E105 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A70D24)
+0x0000000140A70D24 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 7980:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000142A2CD0A)
+0x0000000142A2CD0A (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000142A2CC5E)
+0x0000000142A2CC5E (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001429BDD61)
+0x00000001429BDD61 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000142B79350)
+0x0000000142B79350 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 12720:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000142A0ECD5)
+0x0000000142A0ECD5 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001429BD2EA)
+0x00000001429BD2EA (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001429BDD41)
+0x00000001429BDD41 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000142B79350)
+0x0000000142B79350 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 25320:
+0x00007FFB7ED7B024 (ntdll) NtDelayExecution
+0x00007FFB7B0C5E9A (KERNELBASE) SleepEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001429BD49A)
+0x00000001429BD49A (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001429BDD7A)
+0x00000001429BDD7A (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000142B79350)
+0x0000000142B79350 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 23308:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+0x00007FFB3B366363 (nvwgf2umx) OpenAdapter12
+0x00007FFB3B36554D (nvwgf2umx) OpenAdapter12
+0x00007FFB3B35D17D (nvwgf2umx) OpenAdapter12
+0x00007FFB3BBC528A (nvwgf2umx) NVAPI_Thunk
+0x00007FFB3C23851C (nvwgf2umx) NVAPI_Thunk
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 27256:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A739A7)
+0x0000000140A739A7 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A73AC7)
+0x0000000140A73AC7 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001422072D5)
+0x00000001422072D5 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001422107CB)
+0x00000001422107CB (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001422108C4)
+0x00000001422108C4 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A70D24)
+0x0000000140A70D24 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 23348:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+0x00007FFB3B480EFF (nvwgf2umx) OpenAdapter12
+0x00007FFB3B480DFF (nvwgf2umx) OpenAdapter12
+0x00007FFB3C23851C (nvwgf2umx) NVAPI_Thunk
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 24540:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+0x00007FFB3B480EFF (nvwgf2umx) OpenAdapter12
+0x00007FFB3B480DFF (nvwgf2umx) OpenAdapter12
+0x00007FFB3C23851C (nvwgf2umx) NVAPI_Thunk
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 21224:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+0x00007FFB3B480EFF (nvwgf2umx) OpenAdapter12
+0x00007FFB3B480DFF (nvwgf2umx) OpenAdapter12
+0x00007FFB3C23851C (nvwgf2umx) NVAPI_Thunk
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 10164:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+0x00007FFB3B480EFF (nvwgf2umx) OpenAdapter12
+0x00007FFB3B480DFF (nvwgf2umx) OpenAdapter12
+0x00007FFB3C23851C (nvwgf2umx) NVAPI_Thunk
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 1144:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A6FD6)
+0x00000001408A6FD6 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A8F83)
+0x00000001408A8F83 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A70D24)
+0x0000000140A70D24 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 19288:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A6FD6)
+0x00000001408A6FD6 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A8F83)
+0x00000001408A8F83 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A70D24)
+0x0000000140A70D24 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 25540:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A6FD6)
+0x00000001408A6FD6 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A8F83)
+0x00000001408A8F83 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A70D24)
+0x0000000140A70D24 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 21516:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A6FD6)
+0x00000001408A6FD6 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A8F83)
+0x00000001408A8F83 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A70D24)
+0x0000000140A70D24 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 6048:
+0x00007FFB7ED7E294 (ntdll) ZwWaitForAlertByThreadId
+0x00007FFB7ED55EE2 (ntdll) RtlSleepConditionVariableCS
+0x00007FFB7B0EF318 (KERNELBASE) SleepConditionVariableCS
+0x0000000000D6C2C7 (OpenRL) rlRenderFrame
+0x0000000000D6C5EC (OpenRL) rlRenderFrame
+0x0000000000D6C8C6 (OpenRL) rlRenderFrame
+0x0000000000DA01D8 (OpenRL) rlRenderFrame
+0x0000000001963F2A (OpenRL_pthread) pthread_setspecific
+0x00000000548D1D9F (MSVCR100) endthreadex
+0x00000000548D1E3B (MSVCR100) endthreadex
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 23004:
+0x00007FFB7ED7E294 (ntdll) ZwWaitForAlertByThreadId
+0x00007FFB7ED55EE2 (ntdll) RtlSleepConditionVariableCS
+0x00007FFB7B0EF318 (KERNELBASE) SleepConditionVariableCS
+0x0000000000D6C2C7 (OpenRL) rlRenderFrame
+0x0000000000D6C5EC (OpenRL) rlRenderFrame
+0x0000000000D6C8C6 (OpenRL) rlRenderFrame
+0x0000000000DA01D8 (OpenRL) rlRenderFrame
+0x0000000001963F2A (OpenRL_pthread) pthread_setspecific
+0x00000000548D1D9F (MSVCR100) endthreadex
+0x00000000548D1E3B (MSVCR100) endthreadex
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 17980:
+0x00007FFB7ED7E294 (ntdll) ZwWaitForAlertByThreadId
+0x00007FFB7ED55EE2 (ntdll) RtlSleepConditionVariableCS
+0x00007FFB7B0EF318 (KERNELBASE) SleepConditionVariableCS
+0x0000000000D6C2C7 (OpenRL) rlRenderFrame
+0x0000000000D6C5EC (OpenRL) rlRenderFrame
+0x0000000000D6C8C6 (OpenRL) rlRenderFrame
+0x0000000000DA01D8 (OpenRL) rlRenderFrame
+0x0000000001963F2A (OpenRL_pthread) pthread_setspecific
+0x00000000548D1D9F (MSVCR100) endthreadex
+0x00000000548D1E3B (MSVCR100) endthreadex
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 17584:
+0x00007FFB7ED7E294 (ntdll) ZwWaitForAlertByThreadId
+0x00007FFB7ED55EE2 (ntdll) RtlSleepConditionVariableCS
+0x00007FFB7B0EF318 (KERNELBASE) SleepConditionVariableCS
+0x0000000000D6C2C7 (OpenRL) rlRenderFrame
+0x0000000000D6C5EC (OpenRL) rlRenderFrame
+0x0000000000D6C8C6 (OpenRL) rlRenderFrame
+0x0000000000DA01D8 (OpenRL) rlRenderFrame
+0x0000000001963F2A (OpenRL_pthread) pthread_setspecific
+0x00000000548D1D9F (MSVCR100) endthreadex
+0x00000000548D1E3B (MSVCR100) endthreadex
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 5152:
+0x00007FFB7ED7E294 (ntdll) ZwWaitForAlertByThreadId
+0x00007FFB7ED55EE2 (ntdll) RtlSleepConditionVariableCS
+0x00007FFB7B0EF318 (KERNELBASE) SleepConditionVariableCS
+0x0000000000D6C2C7 (OpenRL) rlRenderFrame
+0x0000000000D6C5EC (OpenRL) rlRenderFrame
+0x0000000000D6C8C6 (OpenRL) rlRenderFrame
+0x0000000000DA01D8 (OpenRL) rlRenderFrame
+0x0000000001963F2A (OpenRL_pthread) pthread_setspecific
+0x00000000548D1D9F (MSVCR100) endthreadex
+0x00000000548D1E3B (MSVCR100) endthreadex
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 17460:
+0x00007FFB7ED7E294 (ntdll) ZwWaitForAlertByThreadId
+0x00007FFB7ED55EE2 (ntdll) RtlSleepConditionVariableCS
+0x00007FFB7B0EF318 (KERNELBASE) SleepConditionVariableCS
+0x0000000000D6C2C7 (OpenRL) rlRenderFrame
+0x0000000000D6C5EC (OpenRL) rlRenderFrame
+0x0000000000D6C8C6 (OpenRL) rlRenderFrame
+0x0000000000DA01D8 (OpenRL) rlRenderFrame
+0x0000000001963F2A (OpenRL_pthread) pthread_setspecific
+0x00000000548D1D9F (MSVCR100) endthreadex
+0x00000000548D1E3B (MSVCR100) endthreadex
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 10248:
+0x00007FFB7ED7E294 (ntdll) ZwWaitForAlertByThreadId
+0x00007FFB7ED55EE2 (ntdll) RtlSleepConditionVariableCS
+0x00007FFB7B0EF318 (KERNELBASE) SleepConditionVariableCS
+0x0000000000D6C2C7 (OpenRL) rlRenderFrame
+0x0000000000D6C5EC (OpenRL) rlRenderFrame
+0x0000000000D6C8C6 (OpenRL) rlRenderFrame
+0x0000000000DA01D8 (OpenRL) rlRenderFrame
+0x0000000001963F2A (OpenRL_pthread) pthread_setspecific
+0x00000000548D1D9F (MSVCR100) endthreadex
+0x00000000548D1E3B (MSVCR100) endthreadex
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 16216:
+0x00007FFB7ED7E294 (ntdll) ZwWaitForAlertByThreadId
+0x00007FFB7ED55EE2 (ntdll) RtlSleepConditionVariableCS
+0x00007FFB7B0EF318 (KERNELBASE) SleepConditionVariableCS
+0x0000000000D6C2C7 (OpenRL) rlRenderFrame
+0x0000000000D6C5EC (OpenRL) rlRenderFrame
+0x0000000000D6C8C6 (OpenRL) rlRenderFrame
+0x0000000000DA01D8 (OpenRL) rlRenderFrame
+0x0000000001963F2A (OpenRL_pthread) pthread_setspecific
+0x00000000548D1D9F (MSVCR100) endthreadex
+0x00000000548D1E3B (MSVCR100) endthreadex
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 18868:
+0x00007FFB7BD61144 (win32u) NtUserGetMessage
+0x00007FFB7D0E1B8B (USER32) GetMessageW
+0x0000000000D843D5 (OpenRL) rlRenderFrame
+0x0000000000DA01D8 (OpenRL) rlRenderFrame
+0x0000000001963F2A (OpenRL_pthread) pthread_setspecific
+0x00000000548D1D9F (MSVCR100) endthreadex
+0x00000000548D1E3B (MSVCR100) endthreadex
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 9228:
+0x00007FFB7ED7B024 (ntdll) NtDelayExecution
+0x00007FFB7B0C5E9A (KERNELBASE) SleepEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000141157843)
+0x0000000141157843 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A68B8)
+0x00000001408A68B8 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A87FD)
+0x00000001408A87FD (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A6B42)
+0x00000001408A6B42 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A6F42)
+0x00000001408A6F42 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A8F83)
+0x00000001408A8F83 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A70D24)
+0x0000000140A70D24 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 23576:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+0x00007FFB2CEB5D88 (mono-2.0-bdwgc) mono_conc_hashtable_remove
+0x00007FFB2CFA318D (mono-2.0-bdwgc) mono_gc_reference_queue_new
+0x00007FFB2CFA1F25 (mono-2.0-bdwgc) mono_callspec_parse
+0x00007FFB2CF65458 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFB2CF651E6 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 23400:
+0x00007FFB7ED7B4F4 (ntdll) NtWaitForMultipleObjects
+0x00007FFB7B0C6099 (KERNELBASE) WaitForMultipleObjectsEx
+0x00007FFB2CEB5E0C (mono-2.0-bdwgc) mono_conc_hashtable_remove
+0x00007FFB2CFAA57D (mono-2.0-bdwgc) mono_object_is_alive
+0x00007FFB2CFAA708 (mono-2.0-bdwgc) mono_object_is_alive
+0x00007FFB2D0C04CD (mono-2.0-bdwgc) mono_debugger_agent_transport_handshake
+0x00007FFB2D0C5C53 (mono-2.0-bdwgc) mono_debugger_agent_transport_handshake
+0x00007FFB2D0B3709 (mono-2.0-bdwgc) mono_unity_backtrace_from_context
+0x00007FFB2CF65458 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFB2CF651E6 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 6484:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A6FD6)
+0x00000001408A6FD6 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A8F83)
+0x00000001408A8F83 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A70D24)
+0x0000000140A70D24 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 25204:
+0x00007FFB7ED7B4F4 (ntdll) NtWaitForMultipleObjects
+0x00007FFB7B0C6099 (KERNELBASE) WaitForMultipleObjectsEx
+0x00007FFB7B0C5F8E (KERNELBASE) WaitForMultipleObjects
+0x00007FFB3BB8BB96 (nvwgf2umx) NVAPI_Thunk
+0x00007FFB3BBC528A (nvwgf2umx) NVAPI_Thunk
+0x00007FFB3C23851C (nvwgf2umx) NVAPI_Thunk
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 14832:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+0x00007FFB3B480EFF (nvwgf2umx) OpenAdapter12
+0x00007FFB3B480DFF (nvwgf2umx) OpenAdapter12
+0x00007FFB3C23851C (nvwgf2umx) NVAPI_Thunk
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 24184:
+0x00007FFB7ED7E2F4 (ntdll) ZwWaitForWorkViaWorkerFactory
+0x00007FFB7ED06866 (ntdll) RtlReleaseSRWLockExclusive
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 23904:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7A7E6A42 (MSWSOCK) Tcpip4_WSHOpenSocket2
+0x00007FFB7A7ED359 (MSWSOCK) NSPStartup
+0x00007FFB7D6266D0 (WS2_32) select
+0x00007FFB2CEA9750 (mono-2.0-bdwgc) mono_poll
+0x00007FFB2CF6BD05 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFB2CF6C797 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFB2CF65458 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFB2CF651E6 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 19412:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+0x00007FFB3B480EFF (nvwgf2umx) OpenAdapter12
+0x00007FFB3B480DFF (nvwgf2umx) OpenAdapter12
+0x00007FFB3C23851C (nvwgf2umx) NVAPI_Thunk
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 22756:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+0x00007FFB3B480EFF (nvwgf2umx) OpenAdapter12
+0x00007FFB3B480DFF (nvwgf2umx) OpenAdapter12
+0x00007FFB3C23851C (nvwgf2umx) NVAPI_Thunk
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 23828:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+0x00007FFB3B480EFF (nvwgf2umx) OpenAdapter12
+0x00007FFB3B480DFF (nvwgf2umx) OpenAdapter12
+0x00007FFB3C23851C (nvwgf2umx) NVAPI_Thunk
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 9008:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+0x00007FFB3B480EFF (nvwgf2umx) OpenAdapter12
+0x00007FFB3B480DFF (nvwgf2umx) OpenAdapter12
+0x00007FFB3C23851C (nvwgf2umx) NVAPI_Thunk
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 23260:
+0x00007FFB7ED7AAC4 (ntdll) NtRemoveIoCompletion
+0x00007FFB7B0D3682 (KERNELBASE) GetQueuedCompletionStatus
+0x00007FFB31FAE581 (libcef) IsSandboxedProcess
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 20248:
+0x00007FFB7ED7AAC4 (ntdll) NtRemoveIoCompletion
+0x00007FFB7B0D3682 (KERNELBASE) GetQueuedCompletionStatus
+0x00007FFB2FFE592F (libcef) cef_trace_event_instant
+0x00007FFB2FFE4F3E (libcef) cef_trace_event_instant
+0x00007FFB2FFE551B (libcef) cef_trace_event_instant
+0x00007FFB2FFD08B0 (libcef) cef_trace_event_instant
+0x00007FFB2FFB7DF8 (libcef) cef_trace_event_instant
+0x00007FFB2FFD0F57 (libcef) cef_trace_event_instant
+0x00007FFB2FFB5A4F (libcef) cef_trace_event_instant
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 21352:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+0x00007FFB2FFE60FE (libcef) cef_trace_event_instant
+0x00007FFB2FFD08B0 (libcef) cef_trace_event_instant
+0x00007FFB2FFB7DF8 (libcef) cef_trace_event_instant
+0x00007FFB2FFD0F57 (libcef) cef_trace_event_instant
+0x00007FFB2FFB5A4F (libcef) cef_trace_event_instant
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 13696:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+0x00007FFB309FFD09 (libcef) cef_get_min_log_level
+0x00007FFB30891B10 (libcef) cef_get_min_log_level
+0x00007FFB31A3DB87 (libcef) cef_get_min_log_level
+0x00007FFB31A3DD2E (libcef) cef_get_min_log_level
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 20256:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+0x00007FFB30A7CEC1 (libcef) cef_get_min_log_level
+0x00007FFB30891B10 (libcef) cef_get_min_log_level
+0x00007FFB31A3DB87 (libcef) cef_get_min_log_level
+0x00007FFB31A3DD2E (libcef) cef_get_min_log_level
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 18768:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+0x00007FFB30A7CEC1 (libcef) cef_get_min_log_level
+0x00007FFB30891B10 (libcef) cef_get_min_log_level
+0x00007FFB31A3DB87 (libcef) cef_get_min_log_level
+0x00007FFB31A3DD2E (libcef) cef_get_min_log_level
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 6688:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+0x00007FFB30A7CEC1 (libcef) cef_get_min_log_level
+0x00007FFB30891B10 (libcef) cef_get_min_log_level
+0x00007FFB31A3DB87 (libcef) cef_get_min_log_level
+0x00007FFB31A3DD2E (libcef) cef_get_min_log_level
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 27112:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+0x00007FFB2FFE60FE (libcef) cef_trace_event_instant
+0x00007FFB2FFD08B0 (libcef) cef_trace_event_instant
+0x00007FFB2FFB7DF8 (libcef) cef_trace_event_instant
+0x00007FFB302A7C6E (libcef) SetCrashKeyValueImpl
+0x00007FFB302A86E3 (libcef) SetCrashKeyValueImpl
+0x00007FFB2FFD0F57 (libcef) cef_trace_event_instant
+0x00007FFB2FFB5A4F (libcef) cef_trace_event_instant
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 12776:
+0x00007FFB7BD696E4 (win32u) NtUserMsgWaitForMultipleObjectsEx
+0x00007FFB7D0E031D (USER32) MsgWaitForMultipleObjectsEx
+0x00007FFB2FFE5AB7 (libcef) cef_trace_event_instant
+0x00007FFB2FFE500E (libcef) cef_trace_event_instant
+0x00007FFB2FFE551B (libcef) cef_trace_event_instant
+0x00007FFB2FFD08B0 (libcef) cef_trace_event_instant
+0x00007FFB2FFB7DF8 (libcef) cef_trace_event_instant
+0x00007FFB302A7CFE (libcef) SetCrashKeyValueImpl
+0x00007FFB302A86FF (libcef) SetCrashKeyValueImpl
+0x00007FFB2FFD0F57 (libcef) cef_trace_event_instant
+0x00007FFB2FFB5A4F (libcef) cef_trace_event_instant
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 25484:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+0x00007FFB2FFE60FE (libcef) cef_trace_event_instant
+0x00007FFB2FFD08B0 (libcef) cef_trace_event_instant
+0x00007FFB2FFB7DF8 (libcef) cef_trace_event_instant
+0x00007FFB302A7D8E (libcef) SetCrashKeyValueImpl
+0x00007FFB302A871B (libcef) SetCrashKeyValueImpl
+0x00007FFB2FFD0F57 (libcef) cef_trace_event_instant
+0x00007FFB2FFB5A4F (libcef) cef_trace_event_instant
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 26236:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+0x00007FFB2FFE60FE (libcef) cef_trace_event_instant
+0x00007FFB2FFD08B0 (libcef) cef_trace_event_instant
+0x00007FFB2FFB7DF8 (libcef) cef_trace_event_instant
+0x00007FFB302A85FE (libcef) SetCrashKeyValueImpl
+0x00007FFB302A8737 (libcef) SetCrashKeyValueImpl
+0x00007FFB2FFD0F57 (libcef) cef_trace_event_instant
+0x00007FFB2FFB5A4F (libcef) cef_trace_event_instant
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 27380:
+0x00007FFB7ED7AAC4 (ntdll) NtRemoveIoCompletion
+0x00007FFB7B0D3682 (KERNELBASE) GetQueuedCompletionStatus
+0x00007FFB2FFE592F (libcef) cef_trace_event_instant
+0x00007FFB2FFE4F3E (libcef) cef_trace_event_instant
+0x00007FFB2FFE551B (libcef) cef_trace_event_instant
+0x00007FFB2FFD08B0 (libcef) cef_trace_event_instant
+0x00007FFB2FFB7DF8 (libcef) cef_trace_event_instant
+0x00007FFB302A7ABE (libcef) SetCrashKeyValueImpl
+0x00007FFB302A8753 (libcef) SetCrashKeyValueImpl
+0x00007FFB2FFD0F57 (libcef) cef_trace_event_instant
+0x00007FFB2FFB5A4F (libcef) cef_trace_event_instant
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 25748:
+0x00007FFB7ED7AAC4 (ntdll) NtRemoveIoCompletion
+0x00007FFB7B0D3682 (KERNELBASE) GetQueuedCompletionStatus
+0x00007FFB2FFE592F (libcef) cef_trace_event_instant
+0x00007FFB2FFE4F3E (libcef) cef_trace_event_instant
+0x00007FFB2FFE551B (libcef) cef_trace_event_instant
+0x00007FFB2FFD08B0 (libcef) cef_trace_event_instant
+0x00007FFB2FFB7DF8 (libcef) cef_trace_event_instant
+0x00007FFB302A7FEE (libcef) SetCrashKeyValueImpl
+0x00007FFB302A876F (libcef) SetCrashKeyValueImpl
+0x00007FFB2FFD0F57 (libcef) cef_trace_event_instant
+0x00007FFB2FFB5A4F (libcef) cef_trace_event_instant
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 16964:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+0x00007FFB2FFE60FE (libcef) cef_trace_event_instant
+0x00007FFB2FFD08B0 (libcef) cef_trace_event_instant
+0x00007FFB2FFB7DF8 (libcef) cef_trace_event_instant
+0x00007FFB2FFD0F57 (libcef) cef_trace_event_instant
+0x00007FFB2FFB5A4F (libcef) cef_trace_event_instant
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 17464:
+0x00007FFB7ED7E294 (ntdll) ZwWaitForAlertByThreadId
+0x00007FFB7ED55EE2 (ntdll) RtlSleepConditionVariableCS
+0x00007FFB7B0EF318 (KERNELBASE) SleepConditionVariableCS
+0x00007FFB2FFEBB5E (libcef) cef_trace_event_instant
+0x00007FFB2FFCF8AE (libcef) cef_trace_event_instant
+0x00007FFB2FFCEE73 (libcef) cef_trace_event_instant
+0x00007FFB2FFEBEDD (libcef) cef_trace_event_instant
+0x00007FFB2FFB5A4F (libcef) cef_trace_event_instant
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 13944:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+0x00007FFB2FFE60FE (libcef) cef_trace_event_instant
+0x00007FFB2FFD08B0 (libcef) cef_trace_event_instant
+0x00007FFB2FFB7DF8 (libcef) cef_trace_event_instant
+0x00007FFB2FFD0F57 (libcef) cef_trace_event_instant
+0x00007FFB2FFB5A4F (libcef) cef_trace_event_instant
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 4800:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001426A4A82)
+0x00000001426A4A82 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 000000014257057F)
+0x000000014257057F (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 1832:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001421804A6)
+0x00000001421804A6 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A70D24)
+0x0000000140A70D24 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 17928:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001421804A6)
+0x00000001421804A6 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A70D24)
+0x0000000140A70D24 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 964:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001421804A6)
+0x00000001421804A6 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A70D24)
+0x0000000140A70D24 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 5916:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001421804A6)
+0x00000001421804A6 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A70D24)
+0x0000000140A70D24 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 7464:
+0x00007FFB7ED7B024 (ntdll) NtDelayExecution
+0x00007FFB7B0C5E9A (KERNELBASE) SleepEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000141EC285E)
+0x0000000141EC285E (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A70D24)
+0x0000000140A70D24 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 13252:
+0x00007FFB7ED7E2F4 (ntdll) ZwWaitForWorkViaWorkerFactory
+0x00007FFB7ED06866 (ntdll) RtlReleaseSRWLockExclusive
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 9740:
+0x00007FFB7ED7B024 (ntdll) NtDelayExecution
+0x00007FFB7B0C5E9A (KERNELBASE) SleepEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000141EC285E)
+0x0000000141EC285E (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A70D24)
+0x0000000140A70D24 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 21088:
+0x00007FFB7ED7E294 (ntdll) ZwWaitForAlertByThreadId
+0x00007FFB7ED55EE2 (ntdll) RtlSleepConditionVariableCS
+0x00007FFB7B0EF318 (KERNELBASE) SleepConditionVariableCS
+0x00007FFB2CEB11CC (mono-2.0-bdwgc) mono_threads_attach_tools_thread
+0x00007FFB2CF69CA1 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFB2CF65458 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFB2CF651E6 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 8136:
+0x00007FFB7ED7E294 (ntdll) ZwWaitForAlertByThreadId
+0x00007FFB7ED55EE2 (ntdll) RtlSleepConditionVariableCS
+0x00007FFB7B0EF318 (KERNELBASE) SleepConditionVariableCS
+0x00007FFB2CF6AAA7 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFB2CF6AE58 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFB2CF65458 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFB2CF651E6 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 21368:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001409AB855)
+0x00000001409AB855 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001409ABB8E)
+0x00000001409ABB8E (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A70D24)
+0x0000000140A70D24 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 8728:
+0x00007FFB7ED7AA24 (ntdll) NtWaitForSingleObject
+0x00007FFB7B0B9252 (KERNELBASE) WaitForSingleObjectEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A6FD6)
+0x00000001408A6FD6 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00000001408A8F83)
+0x00000001408A8F83 (Unity) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 0000000140A70D24)
+0x0000000140A70D24 (Unity) (function-name not available)
+0x00007FFB7CA83DC4 (KERNEL32) BaseThreadInitThunk
+0x00007FFB7ED53691 (ntdll) RtlUserThreadStart
+
+
+
+
+Stack Memory [0x00000000005FD758-0x0000000000600000]:
+0x005fd758: 41c4be4b 00000001 3c51b710 00000000 K..A......Q<....
+0x005fd768: 3b9352f8 00000000 00000000 00000000 .R.;............
+0x005fd778: 3c51b590 00000000 3b971330 00000000 ..Q<....0..;....
+0x005fd788: 41bacb95 00000001 0000023e 00000000 ...A....>.......
+0x005fd798: 3b9352f8 00000000 3c51b590 00000000 .R.;......Q<....
+0x005fd7a8: 0000023e 00000000 3b91c040 00000000 >.......@..;....
+0x005fd7b8: 00000000 00000000 42d3a140 00000001 ........@..B....
+0x005fd7c8: 44674908 00000001 0dd61420 00000000 .IgD.... .......
+0x005fd7d8: 446746b0 00000001 3b91c040 00000000 .FgD....@..;....
+0x005fd7e8: 00000003 00000000 3b9352f8 00000000 .........R.;....
+0x005fd7f8: 41baea29 00000001 3b9352f8 00000000 )..A.....R.;....
+0x005fd808: 3b9352f8 00000000 3ba0a8f0 00000000 .R.;.......;....
+0x005fd818: 0d937010 00000000 fffffffe ffffffff .p..............
+0x005fd828: 0d937010 00000000 00000008 00000000 .p..............
+0x005fd838: 41bb1a0d 00000001 446746b0 00000001 ...A.....FgD....
+0x005fd848: 00000000 00000000 3b91c040 00000000 ........@..;....
+0x005fd858: 00000008 00000000 00000000 00000000 ................
+0x005fd868: fffffffe ffffffff 44674908 00000001 .........IgD....
+0x005fd878: 005fd960 00000000 f6d5c7fd 407dbb1d `._...........}@
+0x005fd888: 00000000 00000000 2db7e5de 0000a598 ...........-....
+0x005fd898: 00000000 00000000 3d4ccccd 00000000 ..........L=....
+0x005fd8a8: 00000000 00000000 3ca3d70a 00000000 ...........<....
+0x005fd8b8: 00000000 00000000 3b839bf0 00000000 ...........;....
+0x005fd8c8: 00000000 00000000 0d936f90 00000000 .........o......
+0x005fd8d8: 005fd9f0 00000000 00000000 00000000 .._.............
+0x005fd8e8: 41bffdcb 00000001 00000000 00000000 ...A............
+0x005fd8f8: 005fd9f0 00000000 0d936f90 00000000 .._......o......
+0x005fd908: 00000000 00000000 00000000 00000000 ................
+0x005fd918: 00000000 00000000 00000000 00000000 ................
+0x005fd928: 3ca3d70a 00000000 00000000 00000000 ...<............
+0x005fd938: 00000000 00000000 00000000 00000000 ................
+0x005fd948: 00000000 00000000 00000000 00000000 ................
+0x005fd958: 0d936f90 00000000 00000000 00000000 .o..............
+0x005fd968: 00000000 00000000 00000000 00000000 ................
+0x005fd978: 00000000 00000000 00000000 00000000 ................
+0x005fd988: 00000000 00000000 00000000 00000000 ................
+0x005fd998: 00000000 00000000 00000000 00000000 ................
+0x005fd9a8: 00000000 00000000 00000000 00000000 ................
+0x005fd9b8: 00000000 00000000 00000000 00000000 ................
+0x005fd9c8: 00000000 00000000 00000000 00000000 ................
+0x005fd9d8: 00000000 00000000 00000000 00000000 ................
+0x005fd9e8: 00000000 00000000 00000000 00000000 ................
+0x005fd9f8: 00000000 00000000 06d59070 00000000 ........p.......
+0x005fda08: fffffffe ffffffff 44675938 00000001 ........8YgD....
+0x005fda18: 00000000 00000000 00000000 00000000 ................
+0x005fda28: 00000000 00000000 0d937010 00000000 .........p......
+0x005fda38: 005fd9e0 00000000 00000000 00000000 .._.............
+0x005fda48: 00000000 00000000 00000000 00000000 ................
+0x005fda58: 00000000 00000000 00000000 00000000 ................
+0x005fda68: 00000000 00000000 00000000 00000000 ................
+0x005fda78: 00000000 00000000 00000000 00000000 ................
+0x005fda88: 00000000 00000000 00000000 00000000 ................
+0x005fda98: 00000000 00000000 00000000 00000000 ................
+0x005fdaa8: 00000000 00000000 00000000 00000000 ................
+0x005fdab8: 00000000 00000000 00000000 00000000 ................
+0x005fdac8: 00000000 00000000 00000000 00000000 ................
+0x005fdad8: 00000000 00000000 00000000 00000000 ................
+0x005fdae8: 00000000 00000000 00000000 00000000 ................
+0x005fdaf8: 00000000 00000000 00000000 00000000 ................
+0x005fdb08: 00000000 00000000 00000000 00000000 ................
+0x005fdb18: 00000000 00000000 00000000 00000000 ................
+0x005fdb28: 00000000 00000000 00000000 00000000 ................
+0x005fdb38: 00000000 00000000 00000000 00000000 ................
+0x005fdb48: 00000000 00000000 00000000 00000000 ................
+0x005fdb58: 00000000 00000000 00000000 00000000 ................
+0x005fdb68: 00000000 00000000 00000000 00000000 ................
+0x005fdb78: 00000000 00000000 00000000 00000000 ................
+0x005fdb88: 00000000 00000000 fffffffe ffffffff ................
+0x005fdb98: 00000000 00000000 fffffffe ffffffff ................
+0x005fdba8: 00000000 00000000 00000000 00000000 ................
+0x005fdbb8: 00000000 00000000 2db7e56e 0000a598 ........n..-....
+0x005fdbc8: 00000000 00000000 00000000 00000000 ................
+0x005fdbd8: 00000000 00000000 00000000 00000000 ................
+0x005fdbe8: 00000000 00000000 00000000 00000000 ................
+0x005fdbf8: 00000000 00000000 00000000 00000000 ................
+0x005fdc08: 00000000 00000000 00000000 00000000 ................
+0x005fdc18: 00000000 00000000 00000000 00000000 ................
+0x005fdc28: 00000000 00000000 f6d5c7fd 407dbb1d ..............}@
+0x005fdc38: 00000000 00000000 00000000 00000000 ................
+0x005fdc48: 00000000 00000000 3d4ccccd 00000000 ..........L=....
+0x005fdc58: 00000000 00000000 3a60d980 407dbb6e ..........`:n.}@
+0x005fdc68: 00000000 00000000 00000000 00000000 ................
+0x005fdc78: 3b839bf0 00000000 0dd61420 00000000 ...;.... .......
+0x005fdc88: 4464d3c8 00000001 06d59070 00000000 ..dD....p.......
+0x005fdc98: 00000009 00000000 00000000 00000000 ................
+0x005fdca8: 41bf41ea 00000001 00000001 00000000 .A.A............
+0x005fdcb8: 0d936f90 00000000 0dd61420 00000000 .o...... .......
+0x005fdcc8: 0d936f90 00000000 3b83a050 00000000 .o......P..;....
+0x005fdcd8: 41bf43a1 00000001 00000001 00000000 .C.A............
+0x005fdce8: 00000000 00000000 00000009 00000000 ................
+0x005fdcf8: 3b83a050 00000000 fffffffe ffffffff P..;............
+0x005fdd08: 00000000 00000000 00000000 00000000 ................
+0x005fdd18: 4095ffd7 00000001 00000000 00000000 ...@............
+0x005fdd28: 00000000 00000000 00000000 00000000 ................
+0x005fdd38: 44728000 441dc000 03f896a0 00000000 ..rD...D........
+0x005fdd48: 4067b139 00000001 fffffffe ffffffff 9.g@............
+0x005fdd58: 00003b66 00000000 40e6dc20 00000000 f;...... ..@....
+0x005fdd68: 00000000 00000000 00003b01 00000000 .........;......
+0x005fdd78: 40eac2cc 00000001 00000000 00000000 ...@............
+0x005fdd88: 00000000 00000000 007600da 00000000 ..........v.....
+0x005fdd98: 3a692ac7 00000000 00000000 00000000 .*i:............
+0x005fdda8: 3a694ec0 00000000 005fddd8 00000000 .Ni:......_.....
+0x005fddb8: 00000001 00000000 ff518a88 00005547 ..........Q.GU..
+0x005fddc8: 4148a5f1 00000001 00000000 00000000 ..HA............
+0x005fddd8: 00000000 00000000 00000000 00000000 ................
+0x005fdde8: 0dd61420 00000000 4464d3c8 00000001  .........dD....
+0x005fddf8: 501279f8 00000000 005fe010 00000000 .y.P......_.....
+0x005fde08: 005fdea0 00000000 005fe0d0 00000000 .._......._.....
+0x005fde18: 2cf41e4f 00007ffb 0002e6ac 00000000 O..,............
+0x005fde28: f5fd0e31 fc7d008a 2db7e39e 0000a598 1.....}....-....
+0x005fde38: 7ece83d0 00007ffb 005fdea0 00000000 ...~......_.....
+0x005fde48: 41458881 00000001 005fe010 00000000 ..EA......_.....
+0x005fde58: 005fe008 00000000 00000000 00000000 .._.............
+0x005fde68: 2cf4ae72 00007ffb 005fe010 00000000 r..,......_.....
+0x005fde78: 00000000 00000000 005fe0d0 00000000 .........._.....
+0x005fde88: 7b0b2dd6 00007ffb 005fdea0 00000000 .-.{......_.....
+0x005fde98: 4464d3c8 00000001 0000ffff 00000000 ..dD............
+0x005fdea8: 7ece83d0 00007ffb 00000000 00000000 ...~............
+0x005fdeb8: 40bdb542 00000001 00000000 00000000 B..@............
+0x005fdec8: 7b0b2dd6 00007ffb 00000000 ffffffff .-.{............
+0x005fded8: 405ba2ab 00000001 76f846a5 00005828 ..[@.....F.v(X..
+0x005fdee8: 04ea1190 00000000 2db7e0be 0000a598 ...........-....
+0x005fdef8: 7b0b2d18 00007ffb 3b838a70 00000000 .-.{....p..;....
+0x005fdf08: 3b839bf0 00000000 00000027 00000000 ...;....'.......
+0x005fdf18: 409600a3 00000001 00000000 00000000 ...@............
+0x005fdf28: 00000000 00000000 00000000 00000000 ................
+0x005fdf38: 40bf7272 00000001 00000000 00000000 rr.@............
+0x005fdf48: 40bf30ba 00000001 fffffffe ffffffff .0.@............
+0x005fdf58: 00000000 00000000 005fe070 00000000 ........p._.....
+0x005fdf68: 005fe070 00000000 005fe010 00000000 p._......._.....
+0x005fdf78: 0786b700 00000000 fffffffe ffffffff ................
+0x005fdf88: 2db7e37e 0000a598 00000000 00000000 ~..-............
+0x005fdf98: 00000001 00000000 0dd61988 00000000 ................
+0x005fdfa8: 0dd61901 00000000 00000000 00000000 ................
+0x005fdfb8: 40bed0f5 00000001 00000000 00000000 ...@............
+0x005fdfc8: 00000000 00000000 00000000 00000000 ................
+0x005fdfd8: 00000001 00000000 00000000 00000000 ................
+0x005fdfe8: 4042e99f 00000001 00000000 00000000 ..B@............
+0x005fdff8: 00000000 00000000 00000000 00000000 ................
+0x005fe008: 00000000 00000000 00000000 00000000 ................
+0x005fe018: 0d924b30 00000000 f6d5c7fd 407dbb1d 0K............}@
+0x005fe028: 00000000 00000000 00000000 00000000 ................
+0x005fe038: 2db7e2de 0000a598 00000000 00000000 ...-............
+0x005fe048: 0786b7b0 00000000 fffffffe ffffffff ................
+0x005fe058: 0dd61901 00000000 00000000 00000000 ................
+0x005fe068: 4145e4fd 00000001 00000000 00000000 ..EA............
+0x005fe078: 04ea12e8 00000000 0786b7b0 00000000 ................
+0x005fe088: 2db7e27e 0000a598 0dd61988 00000000 ~..-............
+0x005fe098: 4145cb84 00000001 00000000 00000000 ..EA............
+0x005fe0a8: 00000000 00000000 005fe1c0 00000000 .........._.....
+0x005fe0b8: 409bcf67 00000001 07495bb0 00000000 g..@.....[I.....
+0x005fe0c8: 40000000 42100000 005fe070 00000000 ...@...Bp._.....
+0x005fe0d8: 00000000 00000000 00000000 00000000 ................
+0x005fe0e8: 00000000 00000000 2db7e2be 0000a598 ...........-....
+0x005fe0f8: 00000000 00000000 00000001 00000000 ................
+0x005fe108: 0dd61901 00000000 44604b08 00000001 .........K`D....
+0x005fe118: 40963351 00000001 00000000 00000000 Q3.@............
+0x005fe128: 00000000 00000000 00000000 00000000 ................
+0x005fe138: 4464d3c8 00000001 fffffffe ffffffff ..dD............
+0x005fe148: 44604731 00000001 44669401 00000001 1G`D......fD....
+0x005fe158: 44669478 00000001 00000001 00000000 x.fD............
+0x005fe168: 501279f8 00000000 00000000 00000000 .y.P............
+0x005fe178: 00000000 00000000 00000000 ffffffff ................
+0x005fe188: 00000000 00000000 00000000 00000000 ................
+0x005fe198: 40000101 42100000 2db7e26e 0000a598 ...@...Bn..-....
+0x005fe1a8: 4464d3c8 00000001 0dd61988 00000000 ..dD............
+0x005fe1b8: 4133dd4f 00000001 0e49f980 00000000 O.3A......I.....
+0x005fe1c8: 0dd61901 00000000 44728000 441dc000 ..........rD...D
+0x005fe1d8: 0dd61988 00000000 00000000 00000000 ................
+0x005fe1e8: 00000000 00000000 fffffffe ffffffff ................
+0x005fe1f8: 00000000 00000000 00000000 00000000 ................
+0x005fe208: 00000000 00000000 0dd61420 00000000 ........ .......
+0x005fe218: 4464d3c8 00000001 005fe339 00000000 ..dD....9._.....
+0x005fe228: 2db7dc1e 0000a598 00000006 00000000 ...-............
+0x005fe238: 40d3cf13 00000001 0dd61988 00000000 ...@............
+0x005fe248: 445c3f68 00000001 fffffffe ffffffff h?\D............
+0x005fe258: 005fe339 00000000 3d4ccccd 00000000 9._.......L=....
+0x005fe268: 00000000 00000000 3a60d980 407dbb6e ..........`:n.}@
+0x005fe278: 00000000 00000000 00000000 00000000 ................
+0x005fe288: 00000000 00000000 00000000 00000000 ................
+0x005fe298: 4132d773 00000001 00000000 00000000 s.2A............
+0x005fe2a8: 00000000 00000000 005fe339 00000000 ........9._.....
+0x005fe2b8: 0dd61988 00000000 00000000 ffffffff ................
+0x005fe2c8: 03d5b400 00000000 03d5b480 00000000 ................
+0x005fe2d8: 03d5b480 00000000 fffffffe ffffffff ................
+0x005fe2e8: 4464d3c8 00000001 005fe428 00000000 ..dD....(._.....
+0x005fe2f8: 00000001 00000000 005fe4a0 00000000 .........._.....
+0x005fe308: 42d47d14 00000001 00000000 00000000 .}.B............
+0x005fe318: 706d6554 00000000 00000000 00000000 Temp............
+0x005fe328: 00000004 00000000 00000000 ffffffff ................
+0x005fe338: 00000045 00000000 00000001 00000000 E...............
+0x005fe348: 0dd61988 00000000 fffffffe ffffffff ................
+0x005fe358: 00000000 00000000 7475612d 74616d6f ........-automat
+0x005fe368: 2db7df3e 0000a598 dd19e483 00000168 >..-........h...
+0x005fe378: 00000000 00000000 00000010 00000000 ................
+0x005fe388: 0dd61988 00000000 005fe4a0 00000000 .........._.....
+0x005fe398: 413396f3 00000001 00000000 00000000 ..3A............
+0x005fe3a8: 00000000 00000000 00000000 00000000 ................
+0x005fe3b8: 00000001 00000000 00000000 00000000 ................
+0x005fe3c8: 00000001 00000000 fffffffe ffffffff ................
+0x005fe3d8: 2db7deae 0000a598 00000000 00000000 ...-............
+0x005fe3e8: 4146d8e0 00000001 fffffffe ffffffff ..FA............
+0x005fe3f8: 00000000 00000000 0000039d fffffc43 ............C...
+0x005fe408: 409bcf4b 00000001 00000000 00000001 K..@............
+0x005fe418: 2db7deae 0000a598 42d43fe0 00000001 ...-.....?.B....
+0x005fe428: 00000000 00000000 6f747561 6974616d ........automati
+0x005fe438: 772d6e6f 00006265 0000000e 00000000 on-web..........
+0x005fe448: 00000000 ffffffff 00000045 00000000 ........E.......
+0x005fe458: 07496340 00000000 00000007 00000000 @cI.............
+0x005fe468: 00000000 00000000 fffffffe ffffffff ................
+0x005fe478: 00000000 00000000 42d43fe0 00000001 .........?.B....
+0x005fe488: 4059eda5 00000001 00000000 00000000 ..Y@............
+0x005fe498: 005fe528 00000000 00000007 00000000 (._.............
+0x005fe4a8: 00000007 00000000 005fe530 00000000 ........0._.....
+0x005fe4b8: 4147d2f8 00000001 07496340 00000000 ..GA....@cI.....
+0x005fe4c8: 07496340 00000000 00000007 00000000 @cI.............
+0x005fe4d8: 039bf900 00000000 0dd61420 00000000 ........ .......
+0x005fe4e8: 3e88f770 00000000 06d66cb0 00000000 p..>.....l......
+0x005fe4f8: 06f65bc0 00000000 06f6a2d0 00000000 .[..............
+0x005fe508: 07495bb0 00000000 005fe680 00000000 .[I......._.....
+0x005fe518: 4141a325 00000001 4464d520 00000001 %.AA.... .dD....
+0x005fe528: 4462b9e0 00000001 00000007 0000007b ..bD........{...
+0x005fe538: 005fe4f0 00000000 fffffffe ffffffff .._.............
+0x005fe548: 4125e265 00000001 dd1aee44 00000168 e.%A....D...h...
+0x005fe558: 40c02aaa 00000001 00000000 ffffffff .*.@............
+0x005fe568: 00000001 00000000 fffffffe ffffffff ................
+0x005fe578: 409bcf4b 00000001 03ceada0 00000000 K..@............
+0x005fe588: 03ceadb0 00000000 fffffffe ffffffff ................
+0x005fe598: 00000000 00000000 00000000 00000000 ................
+0x005fe5a8: 00000000 ffffffff 00000006 ffffffff ................
+0x005fe5b8: 00000000 00000000 03f86320 00000000 ........ c......
+0x005fe5c8: 2db7de3e 0000a598 000d2e90 00000000 >..-............
+0x005fe5d8: 00000000 00000000 00000010 00000000 ................
+0x005fe5e8: 03f86320 00000000 005fe700 00000000  c........_.....
+0x005fe5f8: 4133c5d2 00000001 dd1aee42 00000168 ..3A....B...h...
+0x005fe608: 0dd61988 00000000 00000000 00000000 ................
+0x005fe618: 0dd61900 00000000 00000000 00000000 ................
+0x005fe628: 2db7d98e 0000a598 3a60d900 407dbb6e ...-......`:n.}@
+0x005fe638: 00000011 00000000 76f87d00 00005828 .........}.v(X..
+0x005fe648: 00000201 00000000 00000000 00000000 ................
+0x005fe658: 03d4d020 00000000 f6d5c7fd 407dbb1d  .............}@
+0x005fe668: 03d4d020 00000000 005fe900 00000000  ........._.....
+0x005fe678: fffffffe ffffffff 4464d300 00000001 ..........dD....
+0x005fe688: 00000012 00000000 00000000 00000000 ................
+0x005fe698: 80000022 00000000 00000000 00000000 "...............
+0x005fe6a8: 00000020 00000000 002f2980 00000000  ........)/.....
+0x005fe6b8: 7d0e1083 00007ffb 00000000 00000000 ...}............
+0x005fe6c8: 00000000 00000000 00000001 80000022 ............"...
+0x005fe6d8: 00000000 00000000 00000000 00000000 ................
+0x005fe6e8: 00000038 00000000 00000048 00000000 8.......H.......
+0x005fe6f8: 00000001 00000000 00000000 00000000 ................
+0x005fe708: 00000000 00000000 00000070 00000000 ........p.......
+0x005fe718: ffffffff ffffffff ffffffff ffffffff ................
+0x005fe728: 7d0d6bb7 00007ffb 7d0d7042 00007ffb .k.}....Bp.}....
+0x005fe738: 7d143000 00007ffb 005fe778 00000000 .0.}....x._.....
+0x005fe748: 00000058 0000002f 7bd610a4 00007ffb X.../......{....
+0x005fe758: 00000050 0000002c 00000000 00000000 P...,...........
+0x005fe768: 00000000 00000000 00000000 00000000 ................
+0x005fe778: 00000000 00000000 00000000 00000000 ................
+0x005fe788: 00000000 00000000 00000000 00000000 ................
+0x005fe798: 00000000 00000000 00000000 00000000 ................
+0x005fe7a8: 00000000 00000000 00000000 00000000 ................
+0x005fe7b8: 00000000 00000000 0000003f 00000000 ........?.......
+0x005fe7c8: 00000000 00000000 00000000 00000000 ................
+0x005fe7d8: 7d0d86b3 00007ffb 414712c0 00000001 ...}......GA....
+0x005fe7e8: 1a9fbe77 0624dd2f 00000000 00000000 w.../.$.........
+0x005fe7f8: 41ad9898 00000000 00000000 00000000 ...A............
+0x005fe808: 00000000 00000000 00000000 00000000 ................
+0x005fe818: 00000000 00000000 00000000 00000000 ................
+0x005fe828: 00000101 00007ffb dd19dc6f 00000168 ........o...h...
+0x005fe838: 2db7db9e 0000a598 00000000 00000000 ...-............
+0x005fe848: 00000000 00000000 00000000 00000000 ................
+0x005fe858: 00000000 00000000 00000000 408f4000 .............@.@
+0x005fe868: 00000000 00000000 42d4d300 00000001 ...........B....
+0x005fe878: 41498a01 00000001 03a00005 00000000 ..IA............
+0x005fe888: 1a9fbe77 0624dd2f 005fe9a0 00000000 w.../.$..._.....
+0x005fe898: 414981cb 00000001 00000000 00000000 ..IA............
+0x005fe8a8: 00000000 00000000 00000000 00000000 ................
+0x005fe8b8: dd19dc6f 00000168 00000000 00000000 o...h...........
+0x005fe8c8: 00000000 00000000 002f2980 00000000 .........)/.....
+0x005fe8d8: 00000202 00000000 00000000 00000000 ................
+0x005fe8e8: 0014039d 00000000 1b06bac3 0000039d ................
+0x005fe8f8: 0000003f 00000000 dd19dc6f 00000168 ?.......o...h...
+0x005fe908: dd19ddf4 00000168 dd19a86d 00000168 ....h...m...h...
+0x005fe918: 1a9fbe77 0624dd2f 005fea00 00000000 w.../.$..._.....
+0x005fe928: 00000000 00000000 002f2980 00000000 .........)/.....
+0x005fe938: 00000000 00000000 00000000 00000000 ................
+0x005fe948: 0014039d 00000000 1b06ba56 0000039d ........V.......
+0x005fe958: 0000003f 00000000 00000000 00000000 ?...............
+0x005fe968: 00000000 00000000 00000000 00000000 ................
+0x005fe978: fffffffe ffffffff 74696e55 49554779 ........UnityGUI
+0x005fe988: 77656956 43646e57 7373616c 00007300 ViewWndClass.s..
+0x005fe998: 3000776f 30303030 36333030 41353533 ow.000000036355A
+0x005fe9a8: 00000030 00000000 43028018 00000001 0..........C....
+0x005fe9b8: 00000000 00000000 72617473 54707574 ........startupT
+0x005fe9c8: 00656d69 00000001 0000000b 00000000 ime.............
+0x005fe9d8: 00000000 ffffffff 00000045 00000001 ........E.......
+0x005fe9e8: 00000001 00000001 35556c2d 00000169 ........-lU5i...
+0x005fe9f8: 41497a2f 00000001 00001d65 00000000 /zIA....e.......
+0x005fea08: 00000000 00000000 00001be0 00000000 ................
+0x005fea18: 0000037f 00000000 0000016e 00000000 ........n.......
+0x005fea28: 0000011a 00000000 0000011a 00000000 ................
+0x005fea38: 00000e6a 00000000 2db7d49e 0000a598 j..........-....
+0x005fea48: 00000110 00000000 00000130 00000000 ........0.......
+0x005fea58: 4141d5d9 00000001 00000000 ffffffff ..AA............
+0x005fea68: 00000001 00000000 fffffffe ffffffff ................
+0x005fea78: 00000000 00000001 00010007 00000000 ................
+0x005fea88: 00000376 00000234 2db7d53e 0000a598 v...4...>..-....
+0x005fea98: 00000002 00000000 00000000 00000000 ................
+0x005feaa8: 00000000 00000000 42d4d330 00000001 ........0..B....
+0x005feab8: 41498ad0 00000001 40000000 00000001 ..IA.......@....
+0x005feac8: 0000001b 00000000 005febe0 00000000 .........._.....
+0x005fead8: 41499e66 00000001 00000000 00000000 f.IA............
+0x005feae8: 42d3a140 00000001 445dfee0 00000001 @..B......]D....
+0x005feaf8: 002105c6 00000000 00000001 00000000 ..!.............
+0x005feb08: 00000000 00000000 446530c0 00000001 .........0eD....
+0x005feb18: 42e270c0 00000001 0000001b 00000000 .p.B............
+0x005feb28: fffffffe ffffffff 00000000 00000000 ................
+0x005feb38: 72676f6e 69687061 69007363 0000656c nographics.ile..
+0x005feb48: 0000000a 00000000 00000000 ffffffff ................
+0x005feb58: 00000045 00000000 00000000 00000000 E...............
+0x005feb68: 00000000 00000000 00000000 00000000 ................
+0x005feb78: 00000000 00000000 03c36b40 00000000 ........@k......
+0x005feb88: 00000030 00000000 00000000 00000000 0...............
+0x005feb98: 00000030 00000000 00000000 ffffffff 0...............
+0x005feba8: 00000045 00000000 03c36ae0 00000000 E........j......
+0x005febb8: 0000003b 00000000 00000000 00000000 ;...............
+0x005febc8: 0000003b 00000000 00000000 ffffffff ;...............
+0x005febd8: 00000045 00000000 03c522e0 00000000 E........"......
+0x005febe8: 0000001a 00000000 0067006e 00630020 ........n.g. .c.
+0x005febf8: 0000001a 00000000 00000000 ffffffff ................
+0x005fec08: 00000045 00000000 00000000 00000000 E...............
+0x005fec18: 00000000 00000000 00000000 00000000 ................
+0x005fec28: 00000000 00000000 03c357c0 00000000 .........W......
+0x005fec38: 00000038 00000000 00000000 00000000 8...............
+0x005fec48: 00000038 00000000 00000000 ffffffff 8...............
+0x005fec58: 00000045 00000000 03c356a0 00000000 E........V......
+0x005fec68: 00000033 00000000 00000000 00000000 3...............
+0x005fec78: 00000033 00000000 00000000 ffffffff 3...............
+0x005fec88: 00000045 00000000 003a0043 0055005c E.......C.:.\.U.
+0x005fec98: 00650073 00730072 0045005c 006c006c s.e.r.s.\.E.l.l.
+0x005feca8: 004d0065 006c0065 0061004d 00740072 e.M.e.l.M.a.r.t.
+0x005fecb8: 005c0061 00700041 00440070 00740061 a.\.A.p.p.D.a.t.
+0x005fecc8: 005c0061 006f004c 00610063 0000006c a.\.L.o.c.a.l...
+0x005fecd8: 00000000 00000000 00000000 00000000 ................
+0x005fece8: 00000000 00000000 00000000 00000000 ................
+0x005fecf8: 00000000 00000000 00000000 00000000 ................
+0x005fed08: 00000000 00000000 00000000 00000000 ................
+0x005fed18: 00000000 00000000 00000000 00000000 ................
+0x005fed28: 00000000 00000000 00000000 00000000 ................
+0x005fed38: 00000000 00000000 00000000 00000000 ................
+0x005fed48: 00000000 00000000 00000000 00000000 ................
+0x005fed58: 00000000 00000000 00000000 00000000 ................
+0x005fed68: 00000000 00000000 00000000 00000000 ................
+0x005fed78: 00000000 00000000 00000000 00000000 ................
+0x005fed88: 00000000 00000000 00000000 00000000 ................
+0x005fed98: 00000000 00000000 00000000 00000000 ................
+0x005feda8: 00000000 00000000 00000000 00000000 ................
+0x005fedb8: 00000000 00000000 c86e7100 0000bf5f .........qn._...
+0x005fedc8: 005f0101 00000000 000003f8 00000000 .._.............
+0x005fedd8: 0000008a 00000000 00010730 00000000 ........0.......
+0x005fede8: 00000001 00000000 005ff000 00000000 .........._.....
+0x005fedf8: 0000008a 00000000 00000328 00000000 ........(.......
+0x005fee08: 00000029 00000001 000e5010 00000000 )........P......
+0x005fee18: 0000007f 00000000 00000000 00000000 ................
+0x005fee28: 0000007f 00000000 00000040 00000000 ........@.......
+0x005fee38: 0000002c 00000001 00000000 0000000a ,...............
+0x005fee48: 00000080 000042ee 00000000 00000000 .....B..........
+0x005fee58: 00010720 00000000 00000000 00000000  ...............
+0x005fee68: 00000000 00000000 00000065 00000000 ........e.......
+0x005fee78: 00000000 00000000 00000000 00000000 ................
+0x005fee88: 0000007f 00000000 00000000 00000000 ................
+0x005fee98: 00000000 00000000 003a0043 0055005c ........C.:.\.U.
+0x005feea8: 00650073 00730072 0045005c 006c006c s.e.r.s.\.E.l.l.
+0x005feeb8: 004d0065 006c0065 0061004d 00740072 e.M.e.l.M.a.r.t.
+0x005feec8: 005c0061 00700041 00440070 00740061 a.\.A.p.p.D.a.t.
+0x005feed8: 005c0061 006f004c 00610063 005c006c a.\.L.o.c.a.l.\.
+0x005feee8: 006e0055 00740069 005c0079 00640045 U.n.i.t.y.\.E.d.
+0x005feef8: 00740069 0072006f 0045005c 00690064 i.t.o.r.\.E.d.i.
+0x005fef08: 006f0074 002e0072 006f006c 00000067 t.o.r...l.o.g...
+0x005fef18: 00000000 00000000 08000008 00000000 ................
+0x005fef28: 00000000 00000000 fd0000fd 00000000 ................
+0x005fef38: 00000000 00000000 02000002 00000000 ................
+0x005fef48: 00000000 00000000 00000005 00000000 ................
+0x005fef58: 00010720 00000000 00000002 00000000  ...............
+0x005fef68: 00000000 00000000 00010000 00000000 ................
+0x005fef78: 7ecf6ff8 00007ffb 00010000 00000000 .o.~............
+0x005fef88: 00000000 00000000 00000000 00000000 ................
+0x005fef98: 00000000 00000000 000d0000 00000000 ................
+0x005fefa8: 7ecf6ff8 00007ffb 000d0000 00000000 .o.~............
+0x005fefb8: 00000000 00000000 00000000 00000000 ................
+0x005fefc8: 00000000 00000000 00000000 00000000 ................
+0x005fefd8: 00000000 00000000 00000005 00000000 ................
+0x005fefe8: 00000008 00000000 00000002 00000000 ................
+0x005feff8: 00000001 00000000 000d0000 00000000 ................
+0x005ff008: 7ed6db26 00007ffb 00000000 00000000 &..~............
+0x005ff018: 7ed3cf7e 00007ffb 00000000 00000000 ~..~............
+0x005ff028: 00000001 00000000 000d0000 00000000 ................
+0x005ff038: 7ed6db5d 00007ffb 005ff1a4 00000000 ]..~......_.....
+0x005ff048: ffffffff 00000000 005ff1b0 00000000 .........._.....
+0x005ff058: 7ed1f2ac 00007ffb 00070000 00000000 ...~............
+0x005ff068: 7ed6db26 00007ffb 005ff1d8 00000000 &..~......_.....
+0x005ff078: 005ff201 00000000 005ff268 00000000 .._.....h._.....
+0x005ff088: 7ed1ed6e 00007ffb 00070bbc 00000000 n..~............
+0x005ff098: 005ff1c1 00000000 005ff1a4 00000000 .._......._.....
+0x005ff0a8: ffffffff 00000000 005ff1b0 00000000 .........._.....
+0x005ff0b8: 7ed1f2ac 00007ffb 00060000 00000000 ...~............
+0x005ff0c8: 00000002 00000000 00003070 00000000 ........p0......
+0x005ff0d8: 00000000 00000000 00000001 00000001 ................
+0x005ff0e8: e9a7307e 00000000 000004b4 00000000 ~0..............
+0x005ff0f8: e9a7307e 00007ffb 00000002 00000000 ~0..............
+0x005ff108: 00000000 00000000 76f86885 00005828 .........h.v(X..
+0x005ff118: 00000100 00000009 00000000 00000000 ................
+0x005ff128: 005ff268 00000000 00359000 00000000 h._.......5.....
+0x005ff138: 00000003 00000000 0006179c 00000000 ................
+0x005ff148: 005ff290 00000000 005ff1c1 00000000 .._......._.....
+0x005ff158: 7ed1e9dc 00007ffb 00000000 00000000 ...~............
+0x005ff168: 00000000 00000000 005ff1c1 00000000 .........._.....
+0x005ff178: 005ff290 00000000 005ff1dc 00000000 .._......._.....
+0x005ff188: 005ff1d8 00000000 00000001 00000000 .._.............
+0x005ff198: 00250024 00270026 00000000 000004b4 $.%.&.'.........
+0x005ff1a8: 00000000 00000000 0006179c 00000000 ................
+0x005ff1b8: 00000020 00000003 00000000 00000000  ...............
+0x005ff1c8: 00000002 00000003 00000002 00000001 ................
+0x005ff1d8: 7ed6db26 00007ffb 0035a000 00000000 &..~......5.....
+0x005ff1e8: 000f6380 00000000 00000000 00000000 .c..............
+0x005ff1f8: 005ff428 00000000 00000000 00000000 (._.............
+0x005ff208: 7ed6db26 00007ffb 005ff374 00000000 &..~....t._.....
+0x005ff218: ffffffff 00000000 005ff380 00000000 .........._.....
+0x005ff228: 7ed1f2ac 00007ffb 00070000 00000000 ...~............
+0x005ff238: 7ed6db26 00007ffb 005ff3a8 00000000 &..~......_.....
+0x005ff248: 7ed1d473 00007ffb 005ff438 00000000 s..~....8._.....
+0x005ff258: 7ed1ed6e 00007ffb 00070bbc 00000000 n..~............
+0x005ff268: 005ff391 00000000 005ff374 00000000 .._.....t._.....
+0x005ff278: ffffffff 00000000 005ff380 00000001 .........._.....
+0x005ff288: 005ff2c0 00000000 007a0078 00000000 .._.....x.z.....
+0x005ff298: 000d9ff0 00000000 00000002 00000000 ................
+0x005ff2a8: 005ff560 00000000 00000000 00000000 `._.............
+0x005ff2b8: 00000000 00000000 000004b4 00000000 ................
+0x005ff2c8: 1d4d9547 00007ffb 00000002 00000000 G.M.............
+0x005ff2d8: 00000000 00000000 76f86a75 00005828 ........uj.v(X..
+0x005ff2e8: 00000000 00000000 00000000 00000000 ................
+0x005ff2f8: 005ff438 00000000 00359000 00000000 8._.......5.....
+0x005ff308: 00000003 00000000 0006179c 00000000 ................
+0x005ff318: 005ff460 00000000 005ff391 00000000 `._......._.....
+0x005ff328: 7ed1e9dc 00007ffb 00000000 00000000 ...~............
+0x005ff338: 00000000 00000000 005ff391 00000000 .........._.....
+0x005ff348: 005ff460 00000000 005ff3ac 00000000 `._......._.....
+0x005ff358: 005ff3a8 00000000 00000000 00000000 .._.............
+0x005ff368: 4053a654 00000001 005ff480 000004b4 T.S@......_.....
+0x005ff378: 00000000 00000000 0006179c 00000000 ................
+0x005ff388: 00000020 00000003 00000000 00000000  ...............
+0x005ff398: 00000002 00000003 00000002 00000000 ................
+0x005ff3a8: 1d4d9547 00000001 0035a000 00000000 G.M.......5.....
+0x005ff3b8: 00148af0 00000000 00000000 00000000 ................
+0x005ff3c8: 005ff5f8 00000000 00000000 00000000 .._.............
+0x005ff3d8: 005ff690 00000000 005ff4f0 00000000 .._......._.....
+0x005ff3e8: 7ed1e5e4 00007ffb 005ff5a0 00000000 ...~......_.....
+0x005ff3f8: 005ff800 00000000 000da400 00000000 .._.............
+0x005ff408: 7ecf9e8e 00007ffb 005ff460 00000000 ...~....`._.....
+0x005ff418: 005ff710 00000000 005f0080 00000000 .._......._.....
+0x005ff428: 00000000 00000000 00000000 00000000 ................
+0x005ff438: 007a0078 00000000 00000000 00000000 x.z.............
+0x005ff448: 00090000 00000000 000da400 00000000 ................
+0x005ff458: 00000001 00007ffb 000d93d0 00000000 ................
+0x005ff468: 00000001 00000000 000d0000 00000000 ................
+0x005ff478: 00090e40 00000000 00090cc0 00000000 @...............
+0x005ff488: 00000015 00000000 00000090 00000000 ................
+0x005ff498: 00000000 00000000 00000000 00000000 ................
+0x005ff4a8: 00000090 00000000 0000007a 00000000 ........z.......
+0x005ff4b8: 00000000 00000000 00000002 00000000 ................
+0x005ff4c8: 00000009 00000000 76f86a45 00005828 ........Ej.v(X..
+0x005ff4d8: 00000000 00000000 000f55a8 00000000 .........U......
+0x005ff4e8: 00000004 00000000 005ff6a0 00000000 .........._.....
+0x005ff4f8: 000f55b8 00000000 00000000 00000000 .U..............
+0x005ff508: 00000000 00000000 005ff6a0 00000000 .........._.....
+0x005ff518: 7ed1fcbd 00007ffb 005ff599 00000000 ...~......_.....
+0x005ff528: 7ecf6ff8 00007ffb 00000000 00000000 .o.~............
+0x005ff538: 005ff830 00000000 005ff560 00000000 0._.....`._.....
+0x005ff548: 00000000 00000000 00000000 00000000 ................
+0x005ff558: 00000000 00000000 005ff6a0 00000000 .........._.....
+0x005ff568: 00000080 00000000 000d93d0 00000000 ................
+0x005ff578: 00000030 00000000 00000000 00000000 0...............
+0x005ff588: 005ff6a0 00000000 000f55a8 00000000 .._......U......
+0x005ff598: 000f55b8 00000000 00000000 00000000 .U..............
+0x005ff5a8: 00000101 00000000 000000c0 00000000 ................
+0x005ff5b8: 00000018 00000000 000df9f0 00000000 ................
+0x005ff5c8: 7ed2243d 00007ffb 001cf630 00000000 =$.~....0.......
+0x005ff5d8: 00000018 00000000 00000018 00000000 ................
+0x005ff5e8: 0000001c 00000001 005ff6a0 00000000 .........._.....
+0x005ff5f8: 00000080 00007ffb 00000000 00000000 ................
+0x005ff608: 00000018 00000000 00000000 00000000 ................
+0x005ff618: 00000000 00000000 00000000 00000000 ................
+0x005ff628: 00000000 00000000 00000000 00000000 ................
+0x005ff638: 000df9e0 00000000 00000000 00000000 ................
+0x005ff648: 00000000 00000000 00000003 00000000 ................
+0x005ff658: 00000000 00000000 000d0300 00000000 ................
+0x005ff668: 00000018 00000000 00000000 00000000 ................
+0x005ff678: 00000000 00000000 00000000 00000000 ................
+0x005ff688: 00000000 00000000 00000003 00000000 ................
+0x005ff698: 00000000 00000000 00000000 00000000 ................
+0x005ff6a8: 00000000 00000000 03000003 00000000 ................
+0x005ff6b8: 00000000 00000000 003a0043 0055005c ........C.:.\.U.
+0x005ff6c8: 00650073 00730072 0045005c 006c006c s.e.r.s.\.E.l.l.
+0x005ff6d8: 004d0065 006c0065 0061004d 00740072 e.M.e.l.M.a.r.t.
+0x005ff6e8: 005c0061 00700041 00440070 00740061 a.\.A.p.p.D.a.t.
+0x005ff6f8: 005c0061 006f004c 00610063 005c006c a.\.L.o.c.a.l.\.
+0x005ff708: 006e0055 00740069 005c0079 00640045 U.n.i.t.y.\.E.d.
+0x005ff718: 00740069 0072006f 0045005c 00690064 i.t.o.r.\.E.d.i.
+0x005ff728: 006f0074 002d0072 00720070 00760065 t.o.r.-.p.r.e.v.
+0x005ff738: 006c002e 0067006f 00000000 00000000 ..l.o.g.........
+0x005ff748: 00000000 00000000 000d0000 00000000 ................
+
+Module 1
+C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\OpenRL.dll
+Image Base: 0x80000000  Image Size: 0x00c30000
+File Size:  12654592    File Time:  2019-01-30_100144
+Version:
+   Company:    Imagination Technologies, Inc.
+   Product:    OpenRL™
+   FileDesc:   OpenRL™ Library
+   FileVer:    1.5.100.0
+   ProdVer:    1.5.100.0
+
+Module 2
+C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\OpenRL_pthread.dll
+Image Base: 0x80000000  Image Size: 0x0000f000
+File Size:  42496       File Time:  2019-01-30_100136
+Version:
+   Company:    Open Source Software community LGPL
+   Product:    POSIX Threads for Windows LPGL
+   FileDesc:   MS C 32 bit
+   FileVer:    2.9.0.0
+   ProdVer:    2.9.0.0
+
+Module 3
+C:\WINDOWS\SYSTEM32\xinput1_3.dll
+Image Base: 0x00400000  Image Size: 0x0001e000
+File Size:  107368      File Time:  2007-04-04_185422
+Version:
+   Company:    Microsoft Corporation
+   Product:    Microsoft® DirectX for Windows®
+   FileDesc:   Microsoft Common Controller API
+   FileVer:    9.18.944.0
+   ProdVer:    9.18.944.0
+
+Module 4
+C:\WINDOWS\SYSTEM32\MSVCR100.dll
+Image Base: 0x548b0000  Image Size: 0x000d2000
+File Size:  829264      File Time:  2011-06-11_001538
+Version:
+   Company:    Microsoft Corporation
+   Product:    Microsoft® Visual Studio® 2010
+   FileDesc:   Microsoft® C Runtime Library
+   FileVer:    10.0.40219.325
+   ProdVer:    10.0.40219.325
+
+Module 5
+C:\WINDOWS\SYSTEM32\MSVCP100.dll
+Image Base: 0x54990000  Image Size: 0x00098000
+File Size:  608080      File Time:  2011-06-11_001538
+Version:
+   Company:    Microsoft Corporation
+   Product:    Microsoft® Visual Studio® 2010
+   FileDesc:   Microsoft® C Runtime Library
+   FileVer:    10.0.40219.325
+   ProdVer:    10.0.40219.325
+
+Crash Report configuration:
+ * App Name: Unity Editor
+ * App Version: Unity 2018.3.4f1_1d952368ca3a
+ * Mono DLL: C:\Program Files\Unity\Hub\Editor\2018.3.4f1\Editor\Data\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll
+ * Bug Reporter App Path: "C:/Program Files/Unity/Hub/Editor/2018.3.4f1/Editor/BugReporter/unity.bugreporter.exe" --bugtype crash --editor_mode "WindowsStandaloneSupport" --unity_project "F:\University\GitHub\mgp-team-1\Unity\UnityProject" <attachFile:--attach "<file>">
+ * Crash Report Path: C:\Users\ELLEME~1\AppData\Local\Temp\Unity\Editor\Crashes
+ * Is Editor: true
+
+Crash Report metadata:
+
+Additional report files:
+ * "C:\Users\ElleMelMarta\AppData\Local\Unity\Editor\Editor.log" (Output log file)
+
+
+
+== [end of error.log] ==
