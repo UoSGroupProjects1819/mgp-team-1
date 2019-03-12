@@ -4,25 +4,26 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public GameObject player;
-    public GameObject bullet;
-    
-    public float fireRate;
-    private float nextFire;
+    //player
+    private GameObject player;
+    private PlayerHealth playerHealth;
 
-    public GameObject turretEnd;
+    //enemy
     private Vector2 turretPosition;
-
     private Collider2D enemyAttackRange;
     private bool playerInRange = false;
-
-    public GameObject bulletParent;
-    public List<GameObject> bulletPool;
-    public int bulletTotalCount;
+    private float nextFire;
     private int currentBulletsShot = 0;
 
-    private PlayerHealth playerHealth;
-    //public int enemyHealth;
+    public GameObject turretEnd;
+    public float fireRate;
+    public int bulletTotalCount;
+
+    //bullet
+    public GameObject bullet;
+    public GameObject bulletParent;
+    public List<GameObject> bulletPool;
+
 
     void Awake()
     {
@@ -38,23 +39,17 @@ public class Enemy : MonoBehaviour
 
     void Start()
     {
-        enemyAttackRange = GetComponent<CircleCollider2D>();
-        nextFire = Time.time;
-        turretPosition = turretEnd.transform.position;
+        player = GameObject.FindGameObjectWithTag("Player");
         playerHealth = player.GetComponent<PlayerHealth>();
+        enemyAttackRange = GetComponent<CircleCollider2D>();
+        turretPosition = turretEnd.transform.position;
+        nextFire = Time.time;
     }
 
 
     void Update()
     {
         CheckIfTimeToFire();
-
-        //Not using as enemies can no longer kill themselves
-
-        //if (enemyHealth <= 0)
-        //{
-        //    gameObject.SetActive(false);
-        //}
     }
 
 
@@ -104,11 +99,13 @@ public class Enemy : MonoBehaviour
         }
     }
 
+
     public void DamagePlayer(int bulletDamage)
     {
         playerHealth.playerHP -= bulletDamage;
-        print("player health = " + playerHealth.playerHP);
     }
+
+
 
     //No longer having enemies hurt themselves with their bullets
 
@@ -117,9 +114,5 @@ public class Enemy : MonoBehaviour
     //    enemyHealth -= bulletDamage;
     //    print("enemy health = " + enemyHealth);
     //}
-
-    //TODO:
-    //the bullets will kill the enemy it comes from no matter which enemy it hits
-    //need to sort this
 }
 

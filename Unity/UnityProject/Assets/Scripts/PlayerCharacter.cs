@@ -6,30 +6,27 @@ using UnityEngine;
 public class PlayerCharacter : MonoBehaviour
 {
     //Movement Variables
+    private Rigidbody2D playerRB;
+    private bool facingRight = true;
+
     public float speed;
     public float jumpForce;
-    
-    private Rigidbody2D playerRB;
-
-    private bool facingRight = true;
 
     //Variables for jumping
     private bool isGrounded;
-    public Transform groundCheck;
-    public float checkRadius;
-    public LayerMask whatIsGround;
-
-    public int extraJumps;
     private int extraJumpsLeft;
+
+    public Transform groundCheck;
+    public LayerMask whatIsGround;
+    public float checkRadius;
+    public int extraJumps;
 
     //variables for player shield
     private GameObject playerShield;
-
     private Vector2 centerCircle;
     private Vector2 joystickPos;
-   
+
     public float circleRadius;
-    //private Vector2 mousePos;
     public float shieldRotationSpeed;
 
     private PlayerHealth playerHealth;
@@ -57,7 +54,7 @@ public class PlayerCharacter : MonoBehaviour
         joystickPos = new Vector2((Input.GetAxis("Horizontal2") + 0.01f), Input.GetAxis("Vertical2") + 0f);
         float distance = joystickPos.magnitude;
         
-        //Default position is (0.01, 0) as I always add 0.01f to avoid NaN errors
+        //Default position is (0.01, 0) to avoid NaN errors
         if (joystickPos == new Vector2(0.01f, 0f) || playerHealth.isDead)
         {
             playerShield.SetActive(false);
@@ -65,6 +62,7 @@ public class PlayerCharacter : MonoBehaviour
         else
         {
             playerShield.SetActive(true);
+            RotateShield();
         }
 
         //Makes the shield stay on a set line around the player so it doesn't collide with the player
@@ -73,30 +71,13 @@ public class PlayerCharacter : MonoBehaviour
             playerShield.transform.position = centerCircle + (joystickPos / distance) * circleRadius;
         }
 
-        //Rotates the shield of the player on right and left trigger
-        if (playerShield.activeSelf && Input.GetAxis("Fire1") >= 0.5)
-        {
-            playerShield.transform.Rotate(0, 0, -shieldRotationSpeed);
-        }
 
-        if (playerShield.activeSelf && Input.GetAxis("Fire1") <= -0.5)
-        {
-            playerShield.transform.Rotate(0, 0, shieldRotationSpeed); ;
-        }
-
-
-        //Using velocity and forces to move to not mess up the physics system
+        //Using velocity and forces to move to not mess up the physics system (may cause problems with tilemap if they are too small)
         if (Input.GetButtonDown("Jump") && extraJumpsLeft > 0 && !playerHealth.isDead)
         {
             playerRB.velocity = Vector2.up * jumpForce;
             extraJumpsLeft--;
         }
-
-
-        //else if (Input.GetKeyDown(KeyCode.W) && extraJumpsLeft == 0 && isGrounded == true && !playerHealth.isDead)
-        //{
-        //    playerRB.velocity = Vector2.up * jumpForce;
-        //}
 
     }
 
@@ -134,6 +115,17 @@ public class PlayerCharacter : MonoBehaviour
     }
 
 
+    private void RotateShield()
+    {
+        float heading = Mathf.Atan2(-joystickPos.x, joystickPos.y);
+        playerShield.transform.rotation = Quaternion.Euler(0f, 0f, heading * Mathf.Rad2Deg);
+    }
+
+
+
+
+
+
 
     /* 
          * This is for use only with mouse to control the shield of the player
@@ -146,6 +138,9 @@ public class PlayerCharacter : MonoBehaviour
     /*
      * 
      * 
+     * 
+        //private Vector2 mousePos;
+
         //mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
         //Vector2 diff = mousePos - centerCircle;
@@ -166,6 +161,12 @@ public class PlayerCharacter : MonoBehaviour
         {
             playerShield.transform.position = mousePos;
         }
+
+    
+        //else if (Input.GetKeyDown(KeyCode.W) && extraJumpsLeft == 0 && isGrounded == true && !playerHealth.isDead)
+        //{
+        //    playerRB.velocity = Vector2.up * jumpForce;
+        //}
     *
     *
     */

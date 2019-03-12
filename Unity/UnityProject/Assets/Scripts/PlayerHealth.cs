@@ -5,12 +5,12 @@ using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
+    private GameObject playerShield;
+    private PlayerCharacter playerCharacter;
+
     public int playerHP;
     public bool isDead;
 
-    private GameObject playerShield;
-
-    private PlayerCharacter playerCharacter;
 
     private void Start()
     {

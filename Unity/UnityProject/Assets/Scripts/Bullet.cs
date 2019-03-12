@@ -4,30 +4,27 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
+    //Player Shield
     private GameObject player;
     private GameObject playerShield;
 
+    //Enemy
     private Enemy enemyScript;
 
-    //Bullet direction and speed manipulation
+    //Bullet
     private Rigidbody2D bulletRB;
+    private CircleCollider2D bulletCircleCollider;
     private Vector2 moveDirection;
-    public float bulletMoveSpeed;
-
     private bool bulletInitialised = false;
     private bool transformRun = false;
-
-    public float timer;
     private float privTimer;
+    private int extraBouncesPriv;
 
-    private CircleCollider2D bulletCircleCollider;
-
+    public float bulletMoveSpeed;
+    public float timer;
     public int bulletDamage;
-
     public int extraBounces;
-    public int extraBouncesPriv;
 
-    ContactPoint2D[] myContact = new ContactPoint2D[1];
 
     void Start()
     {
@@ -102,6 +99,7 @@ public class Bullet : MonoBehaviour
     }
 
 
+
     //only needed if we decide to kill enemies (might have to change all bullet code especially for bouncing bullets if needed)
 
     //void OnTriggerEnter2D(Collider2D other)
@@ -122,7 +120,6 @@ public class Bullet : MonoBehaviour
 
     //    }
     //}
-
 
 
     //only needed if we decide to kill enemies (this goes into onCollisionEnter)

@@ -21002,6 +21002,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4319148699912970737, guid: 26fb670a37d5860499baf35dfef253e9,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4319148699912970737, guid: 26fb670a37d5860499baf35dfef253e9,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -0.0004396774
+      objectReference: {fileID: 0}
+    - target: {fileID: 4319148699912970737, guid: 26fb670a37d5860499baf35dfef253e9,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.15296522
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26fb670a37d5860499baf35dfef253e9, type: 3}
 --- !u!1001 &6643184899651929174
@@ -21075,6 +21090,11 @@ PrefabInstance:
         type: 3}
       propertyPath: playerHP
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6643184899743676545, guid: 5de3212507d81664f8b4ab083a2ed668,
+        type: 3}
+      propertyPath: circleRadius
+      value: 0.45
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5de3212507d81664f8b4ab083a2ed668, type: 3}
