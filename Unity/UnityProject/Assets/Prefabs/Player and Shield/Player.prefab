@@ -136,12 +136,12 @@ MonoBehaviour:
   speed: 8
   jumpForce: 8
   groundCheck: {fileID: 6643184900688030756}
-  checkRadius: 0.1
   whatIsGround:
     serializedVersion: 2
     m_Bits: 256
+  checkRadius: 0.1
   extraJumps: 1
-  circleRadius: 1
+  circleRadius: 0.45
   shieldRotationSpeed: 2
 --- !u!114 &6643184899743676558
 MonoBehaviour:
