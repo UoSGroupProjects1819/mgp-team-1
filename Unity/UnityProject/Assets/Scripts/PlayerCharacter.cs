@@ -31,6 +31,8 @@ public class PlayerCharacter : MonoBehaviour
 
     private PlayerHealth playerHealth;
 
+    public float OuchieForce;
+
 
     void Start()
     {
@@ -48,6 +50,7 @@ public class PlayerCharacter : MonoBehaviour
         if (isGrounded == true)
         {
             extraJumpsLeft = extraJumps;
+            
         }
 
         centerCircle = transform.position;
@@ -120,10 +123,6 @@ public class PlayerCharacter : MonoBehaviour
         float heading = Mathf.Atan2(-joystickPos.x, joystickPos.y);
         playerShield.transform.rotation = Quaternion.Euler(0f, 0f, heading * Mathf.Rad2Deg);
     }
-
-
-
-
 
 
 

@@ -100,9 +100,9 @@ public class Enemy : MonoBehaviour
     }
 
 
-    public void DamagePlayer(int bulletDamage)
+    public void DamagePlayer(int m_bulletDamage)
     {
-        playerHealth.playerHP -= bulletDamage;
+        playerHealth.playerHP -= m_bulletDamage;
     }
 
 
