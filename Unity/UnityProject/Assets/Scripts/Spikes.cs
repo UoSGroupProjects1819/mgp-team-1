@@ -30,9 +30,9 @@ public class Spikes : MonoBehaviour
 
         //same code will go into the enemy or bullet script to allow player to bounce on top of bullets.
         //NOT TESTED AS DO NOT HAVE CONTROLLER
-        if (collision.gameObject.name == playerShield.name /*&& playerShield.position is below player*/)
+        if (collision.gameObject.name == playerShield.name /*&& playerShield.position is below player?*/)
         {
-            playerRB.velocity = Vector2.up * ShieldBounceForce;
+            playerRB.velocity = -playerRB.velocity;
         }
     }
 
