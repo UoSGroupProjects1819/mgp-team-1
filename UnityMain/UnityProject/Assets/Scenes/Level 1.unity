@@ -870,8 +870,12 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 0.34986243
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 6643184899743676558, guid: 5de3212507d81664f8b4ab083a2ed668, type: 3}
+    - target: {fileID: 6643184899743676558, guid: 5de3212507d81664f8b4ab083a2ed668,
+        type: 3}
+      propertyPath: playerHP
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5de3212507d81664f8b4ab083a2ed668, type: 3}
 --- !u!4 &1488041300 stripped
 Transform:
@@ -1036,6 +1040,11 @@ PrefabInstance:
     - target: {fileID: 8895613425183336287, guid: 7b2ef0cd35ec9cb4e85ae6b7831a1334,
         type: 3}
       propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8895613425183336275, guid: 7b2ef0cd35ec9cb4e85ae6b7831a1334,
+        type: 3}
+      propertyPath: bulletsInRound
       value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []

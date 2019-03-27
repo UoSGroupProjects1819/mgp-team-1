@@ -8,7 +8,7 @@ public class PlayerHealth : MonoBehaviour
     private GameObject playerShield;
     private PlayerCharacter playerCharacter;
 
-    public int playerHP;
+    public int playerHP = 3;
     public bool isDead;
 
 
