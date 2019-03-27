@@ -18,12 +18,15 @@ public class Enemy : MonoBehaviour
     public GameObject turretEnd;
     public float fireRate;
     public int bulletTotalCount;
+    public int bulletsInRound;
+    private int bulletsLeft;
+    private bool reload;
 
     //bullet
     public GameObject bullet;
     public GameObject bulletParent;
     public List<GameObject> bulletPool;
-
+    private bool reloading;
 
     void Awake()
     {
@@ -41,27 +44,40 @@ public class Enemy : MonoBehaviour
     {
         player = GameObject.FindGameObjectWithTag("Player");
         playerHealth = GameObject.FindGameObjectWithTag("GameController").GetComponent<PlayerHealth>();
-    enemyAttackRange = GetComponent<CircleCollider2D>();
+        enemyAttackRange = GetComponent<CircleCollider2D>();
         turretPosition = turretEnd.transform.position;
         nextFire = Time.time;
+        bulletsLeft = bulletsInRound;
     }
 
 
     void Update()
     {
+
+        if (bulletsLeft == 0)
+        {
+            reload = true;
+        }
+
         CheckIfTimeToFire();
     }
 
 
     void CheckIfTimeToFire()
     {
+        if (reload == true && !reloading)
+        {
+            reloading = true;
+            StartCoroutine(ReloadTimer());
+        }
+
         //Resets back to start of bullet pool
         if (currentBulletsShot >= bulletPool.Count)
         {
             currentBulletsShot = 0;
         }
 
-        if (Time.time > nextFire && playerInRange && !playerHealth.isDead)
+        if (Time.time > nextFire && playerInRange && !playerHealth.isDead && !reload)
         {
             if (bulletPool[currentBulletsShot].activeSelf == false)
             {
@@ -70,6 +86,7 @@ public class Enemy : MonoBehaviour
                 nextFire = Time.time + fireRate;
 
                 currentBulletsShot++;
+                bulletsLeft--;
             }
 
             //Fail safe to make sure it keeps looping through the bullets even if one is still active
@@ -106,6 +123,13 @@ public class Enemy : MonoBehaviour
     }
 
 
+    IEnumerator ReloadTimer()
+    {
+        yield return new WaitForSecondsRealtime(2);
+        bulletsLeft = bulletsInRound;
+        reload = false;
+        reloading = false;
+    }
 
     //No longer having enemies hurt themselves with their bullets
 

@@ -11,6 +11,7 @@ public class Spikes : MonoBehaviour
 
     public int spikeDamage = 1;
     public float ShieldBounceForce;
+    
 
     void Start()
     {
