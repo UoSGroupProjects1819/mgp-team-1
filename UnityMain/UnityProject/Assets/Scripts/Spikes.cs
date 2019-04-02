@@ -30,7 +30,7 @@ public class Spikes : MonoBehaviour
         {
             if (playerRB.velocity.y < 0)
             {
-                playerRB.AddForce(new Vector2(0, 100));
+                playerRB.velocity = new Vector2(0, ShieldBounceForce);
             }
 
         }

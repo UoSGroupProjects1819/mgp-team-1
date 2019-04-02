@@ -15,7 +15,7 @@ public class LevelTransition : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.name == player.name)
+        if (other.tag == "Player")
         {
            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1, 0);
         }

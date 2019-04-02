@@ -14,13 +14,15 @@ public class Enemy : MonoBehaviour
     private bool playerInRange = false;
     private float nextFire;
     private int currentBulletsShot = 0;
+    private int bulletsLeft;
+    private bool reload;
 
     public GameObject turretEnd;
     public float fireRate;
     public int bulletTotalCount;
     public int bulletsInRound;
-    private int bulletsLeft;
-    private bool reload;
+    public float reloadTime;
+
 
     //bullet
     public GameObject bullet;
@@ -54,12 +56,21 @@ public class Enemy : MonoBehaviour
     void Update()
     {
 
+        if (playerHealth.isDead == true)
+        {
+            reload = true;
+            playerInRange = false;
+        }
+
+
         if (bulletsLeft == 0)
         {
             reload = true;
         }
 
         CheckIfTimeToFire();
+
+        
     }
 
 
@@ -125,7 +136,7 @@ public class Enemy : MonoBehaviour
 
     IEnumerator ReloadTimer()
     {
-        yield return new WaitForSecondsRealtime(2);
+        yield return new WaitForSecondsRealtime(reloadTime);
         bulletsLeft = bulletsInRound;
         reload = false;
         reloading = false;

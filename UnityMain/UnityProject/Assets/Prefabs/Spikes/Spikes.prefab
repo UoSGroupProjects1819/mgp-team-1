@@ -120,4 +120,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spikeDamage: 1
-  ShieldBounceForce: 0
+  ShieldBounceForce: 10

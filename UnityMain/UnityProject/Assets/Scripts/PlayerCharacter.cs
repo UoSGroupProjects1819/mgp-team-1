@@ -42,12 +42,16 @@ public class PlayerCharacter : MonoBehaviour
 
     private void Update()
     {
-    
+
         //If empty object on player is touching ground
         if (isGrounded == true)
         {
             extraJumpsLeft = extraJumps;
-            
+            animator.SetBool("IsGrounded", true);
+        }
+        else
+        {
+            animator.SetBool("IsGrounded", false);
         }
 
         joystickPos = new Vector2((Input.GetAxis("Horizontal2") + 0.01f), Input.GetAxis("Vertical2") + 0f);

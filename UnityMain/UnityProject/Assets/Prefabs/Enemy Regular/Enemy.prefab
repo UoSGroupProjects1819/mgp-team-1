@@ -210,11 +210,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2efc0b49c08c94e972e58316a7c9a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 6643184899743676548, guid: 5de3212507d81664f8b4ab083a2ed668, type: 3}
-  bullet: {fileID: 6315885819267962497, guid: b2c75253139c57d41aa5c76344206212, type: 3}
-  fireRate: 0.5
   turretEnd: {fileID: 8895613423125540116}
+  fireRate: 0.5
+  bulletTotalCount: 20
+  bulletsInRound: 4
+  reloadTime: 2
+  bullet: {fileID: 6315885819267962497, guid: b2c75253139c57d41aa5c76344206212, type: 3}
   bulletParent: {fileID: 5299087115104063857}
   bulletPool: []
-  bulletTotalCount: 20
-  enemyHealth: 4
