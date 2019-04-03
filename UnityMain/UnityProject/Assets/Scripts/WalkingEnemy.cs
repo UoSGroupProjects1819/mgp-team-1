@@ -16,6 +16,8 @@ public class WalkingEnemy : MonoBehaviour
     //player
     private PlayerHealth playerHealth;
     private GameObject player;
+    public GameObject bullet;
+    public GameObject bouncingbullet;
 
     // Use this for initialization
     void Start()
@@ -72,6 +74,11 @@ public class WalkingEnemy : MonoBehaviour
         if (collision.gameObject.name == player.name)
         {
             DamagePlayer(1);
+        }
+        if (collision.gameObject == bullet || collision.gameObject == bouncingbullet);
+        {
+            print("Collision Detected");
+            gameObject.SetActive(false);
         }
     }
 

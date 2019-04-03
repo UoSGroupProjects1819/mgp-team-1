@@ -97,6 +97,9 @@ MonoBehaviour:
   rightDist: 2
   leftDist: 2
   movingSpeed: 2
+  bullet: {fileID: 6315885819267962497, guid: b2c75253139c57d41aa5c76344206212, type: 3}
+  bouncingbullet: {fileID: 8013776888095925719, guid: 124068ba4289ef645b167b5d937515b7,
+    type: 3}
 --- !u!50 &5734686541956204068
 Rigidbody2D:
   serializedVersion: 4
