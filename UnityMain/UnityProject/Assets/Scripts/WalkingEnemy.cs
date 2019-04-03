@@ -71,11 +71,11 @@ public class WalkingEnemy : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.name == player.name)
+        if (collision.gameObject.tag == "Player")
         {
             DamagePlayer(1);
         }
-        if (collision.gameObject == bullet || collision.gameObject == bouncingbullet);
+        if (collision.gameObject.tag == "Bullet")
         {
             print("Collision Detected");
             gameObject.SetActive(false);
