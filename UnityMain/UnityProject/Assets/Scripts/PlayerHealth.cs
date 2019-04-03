@@ -7,6 +7,7 @@ public class PlayerHealth : MonoBehaviour
 {
     private GameObject playerShield;
     private GameObject player;
+    private Rigidbody2D playerRB;
     private PlayerCharacter playerCharacter;
     private Vector2 respawnPoint;
     private Animator animator;
@@ -19,6 +20,7 @@ public class PlayerHealth : MonoBehaviour
     {
         playerShield = GameObject.FindGameObjectWithTag("Shield");
         player = GameObject.FindGameObjectWithTag("Player");
+        playerRB = player.GetComponent<Rigidbody2D>();
         playerCharacter = player.GetComponent<PlayerCharacter>();
         respawnPoint = GameObject.FindGameObjectWithTag("Respawn").transform.position;
         animator = player.GetComponent<Animator>();
@@ -35,6 +37,8 @@ public class PlayerHealth : MonoBehaviour
         {
             isDead = true;
             animator.SetBool("IsDead", true);
+
+            playerRB.simulated = false;
 
             if (playerShield.activeSelf == true)
             {
@@ -56,6 +60,7 @@ public class PlayerHealth : MonoBehaviour
         isDead = false;
         animator.SetBool("IsDead", false);
         playerHP = 1;
+        playerRB.simulated = true;
 
         player.SetActive(true);
     }
