@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6470919395077758437}
   - component: {fileID: 5734686541956204068}
   - component: {fileID: 2043306498824368932}
+  - component: {fileID: 6950294490079562909}
   m_Layer: 0
   m_Name: WalkingEnemy
   m_TagString: Untagged
@@ -97,6 +98,7 @@ MonoBehaviour:
   rightDist: 2
   leftDist: 2
   movingSpeed: 2
+  animator: {fileID: 6950294490079562909}
   bullet: {fileID: 6315885819267962497, guid: b2c75253139c57d41aa5c76344206212, type: 3}
   bouncingbullet: {fileID: 8013776888095925719, guid: 124068ba4289ef645b167b5d937515b7,
     type: 3}
@@ -137,3 +139,22 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0.03599012}
   m_Size: {x: 0.20000002, y: 0.37801975}
   m_Direction: 0
+--- !u!95 &6950294490079562909
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8219632046259458469}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 77200bb891708914d884e42d59c2b195, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

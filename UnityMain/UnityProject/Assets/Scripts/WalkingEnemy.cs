@@ -8,16 +8,19 @@ public class WalkingEnemy : MonoBehaviour
     //walking enemy
     private Rigidbody2D enemyRB;
     private int direction;
+    private bool isEnemyDead;
 
     public float rightDist;
     public float leftDist;
     public int movingSpeed;
+    public Animator animator;
 
     //player
     private PlayerHealth playerHealth;
     private GameObject player;
     public GameObject bullet;
     public GameObject bouncingbullet;
+    
 
     // Use this for initialization
     void Start()
@@ -71,14 +74,16 @@ public class WalkingEnemy : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Player")
+        if (collision.gameObject.tag == "Player" && isEnemyDead == false)
         {
             DamagePlayer(1);
         }
+
         if (collision.gameObject.tag == "Bullet")
         {
-            print("Collision Detected");
-            gameObject.SetActive(false);
+            isEnemyDead = true;
+            animator.SetBool("IsEnemyDead", true);
+            enemyRB.simulated = false;
         }
     }
 

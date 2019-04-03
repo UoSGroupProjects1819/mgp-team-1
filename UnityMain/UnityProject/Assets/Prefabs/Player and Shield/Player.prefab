@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6643184899743676549}
   - component: {fileID: 3849429060363654892}
   - component: {fileID: 6643184899743676545}
-  - component: {fileID: 6643184899743676558}
+  - component: {fileID: 4240907783336023799}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -135,6 +135,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 8
   jumpForce: 8
+  animator: {fileID: 4240907783336023799}
   groundCheck: {fileID: 6643184900688030756}
   whatIsGround:
     serializedVersion: 2
@@ -142,21 +143,25 @@ MonoBehaviour:
   checkRadius: 0.1
   extraJumps: 1
   circleRadius: 0.45
-  shieldRotationSpeed: 2
---- !u!114 &6643184899743676558
-MonoBehaviour:
+--- !u!95 &4240907783336023799
+Animator:
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6643184899743676548}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01641445566da6a4f806acd813412211, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerHP: 1
-  isDead: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 78c7e25343554d94eb9a0a00f67ffb62, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6643184900688030759
 GameObject:
   m_ObjectHideFlags: 0

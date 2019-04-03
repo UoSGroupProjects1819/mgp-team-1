@@ -43,5 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01641445566da6a4f806acd813412211, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 4240907783336023799, guid: 5de3212507d81664f8b4ab083a2ed668,
+    type: 3}
   playerHP: 1
   isDead: 0

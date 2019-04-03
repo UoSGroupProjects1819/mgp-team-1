@@ -9,6 +9,7 @@ public class PlayerHealth : MonoBehaviour
     private GameObject player;
     private PlayerCharacter playerCharacter;
     private Vector2 respawnPoint;
+    private Animator animator;
 
     public int playerHP;
     public bool isDead;
@@ -20,6 +21,7 @@ public class PlayerHealth : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player");
         playerCharacter = player.GetComponent<PlayerCharacter>();
         respawnPoint = GameObject.FindGameObjectWithTag("Respawn").transform.position;
+        animator = player.GetComponent<Animator>();
     }
 
     private void Update()
@@ -32,6 +34,8 @@ public class PlayerHealth : MonoBehaviour
         if (playerHP <= 0 && isDead != true)
         {
             isDead = true;
+            animator.SetBool("IsDead", true);
+
             if (playerShield.activeSelf == true)
             {
                 playerShield.SetActive(false);
@@ -44,12 +48,13 @@ public class PlayerHealth : MonoBehaviour
 
     IEnumerator DeathTimer()
     {
-        player.SetActive(false);
+        print(animator.GetBool("IsDead"));
 
         yield return new WaitForSecondsRealtime(2);
 
         player.transform.position = respawnPoint;
         isDead = false;
+        animator.SetBool("IsDead", false);
         playerHP = 1;
 
         player.SetActive(true);
