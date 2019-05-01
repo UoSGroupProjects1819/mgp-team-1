@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3300930911532402591}
   - component: {fileID: 2557635987846808792}
   - component: {fileID: 2259884370760390295}
+  - component: {fileID: 7956471764429634968}
   m_Layer: 0
   m_Name: Enemy_Bouncy
   m_TagString: Untagged
@@ -74,9 +75,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: ee65913a6feb25547bc5c34b7afde73d, type: 3}
   m_Color: {r: 0.3702159, g: 1, b: 0.042452812, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.2, y: 0.2}
@@ -158,6 +159,19 @@ MonoBehaviour:
   bullet: {fileID: 8013776888095925719, guid: 124068ba4289ef645b167b5d937515b7, type: 3}
   bulletParent: {fileID: 3203263602699285645}
   bulletPool: []
+--- !u!114 &7956471764429634968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746232937676486149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad02860bbe8c03040ad7c69eb8c2c934, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
 --- !u!1 &3203263602699285645
 GameObject:
   m_ObjectHideFlags: 0
