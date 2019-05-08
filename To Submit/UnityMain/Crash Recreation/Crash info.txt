@@ -1,0 +1,4 @@
+-> Open game 
+-> load any scene
+-> open tile palette and do some quick painting with it with different tiles
+-> hit play and watch the crash
